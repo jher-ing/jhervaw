@@ -1,8 +1,19 @@
+
 import type { MetadataRoute } from "next";
 import { siteConfig } from "@/config/site";
 
 export default function sitemap(): MetadataRoute.Sitemap {
-  const routes = ["", "/nosotros", "/proceso", "/estandares", "/contacto"];
+  const routes = [
+    "",
+    "/nosotros",
+    "/proceso",
+    "/estandares",
+    "/conceptos",
+    "/conceptos/restaurante",
+    "/conceptos/hotel",
+    "/conceptos/tienda-de-ropa",
+    "/contacto",
+  ];
 
   return routes.map((route) => ({
     url: `${siteConfig.url}${route}`,

@@ -93,6 +93,11 @@
   --color-warning: var(--jherva-warning);
   --color-danger: var(--jherva-danger);
   --color-ink: var(--jherva-ink);
+  /* Fijo (no cambia con el tema) — para íconos/acentos sobre superficies
+     forzadas a oscuro (ej. tarjetas de /conceptos) donde --color-primary
+     (#4F46E5, ~3.1:1 sobre --jherva-ink) no cumple 4.5:1 para texto.
+     Uso restringido a íconos/UI (umbral 3:1) — ver 08-Accessibility/Contrast.md. */
+  --color-indigo-light: var(--jherva-indigo-light);
 
   --shadow-sm: var(--s-sm);
   --shadow-md: var(--s-md);

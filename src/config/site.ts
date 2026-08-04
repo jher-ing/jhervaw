@@ -1,7 +1,5 @@
 /**
  * Configuración central del sitio.
- * El dominio es un placeholder — Jherva aún no lo ha comprado (confirmado por el cliente).
- * Cambiar aquí una sola vez cuando el dominio real esté disponible.
  */
 export const siteConfig = {
   name: "Jherva",
@@ -21,6 +19,7 @@ export const siteConfig = {
     { label: "Nosotros", href: "/nosotros" },
     { label: "Metodología", href: "/proceso" },
     { label: "Estándares", href: "/estandares" },
+    { label: "Conceptos", href: "/conceptos" },
     { label: "Contacto", href: "/contacto" },
   ],
 } as const;
