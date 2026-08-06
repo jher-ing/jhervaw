@@ -45,7 +45,7 @@ export const niches: NicheConfig[] = [
     title: "Restaurante",
     description:
       "Sitio pensado para restaurantes modernos que buscan transmitir calidad y facilitar las reservas.",
-    image: "/restaurante.png",
+    image: "/restaurante.webp",
     features: [
       "Hero gastronómico impactante",
       "Menú digital",
@@ -80,7 +80,7 @@ export const niches: NicheConfig[] = [
     icon: BedDouble,
     title: "Hotel",
     description: "Sitio diseñado para hoteles boutique y alojamientos premium.",
-    image: "/hotel.png",
+    image: "/hotel.webp",
     features: [
       "Hero con fotografía inmersiva",
       "Buscador de disponibilidad",
@@ -115,7 +115,7 @@ export const niches: NicheConfig[] = [
     icon: Shirt,
     title: "Tienda de ropa",
     description: "Ecommerce moderno enfocado en vender productos.",
-    image: "/ropa.png",
+    image: "/ropa.webp",
     features: ["Hero editorial", "Catálogo organizado", "Filtros", "Carrito", "Checkout intuitivo"],
     palette: {
       "--n-bg": "#f7f7f4",
