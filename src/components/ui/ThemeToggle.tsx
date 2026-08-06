@@ -7,7 +7,7 @@ import { cn } from "@/lib/utils";
 const STORAGE_KEY = "jherva-theme";
 
 export function ThemeToggle({ className }: { className?: string }) {
-  const [theme, setTheme] = React.useState<"light" | "dark">("dark");
+  const [theme, setTheme] = React.useState<"light" | "dark">("light");
   const [mounted, setMounted] = React.useState(false);
 
   React.useEffect(() => {
@@ -48,8 +48,8 @@ export function ThemeToggle({ className }: { className?: string }) {
 
 /**
  * Script inline que fija el tema antes del primer render — evita flash.
- * Oscuro es el default del sitio: una primera visita (sin preferencia
- * guardada) siempre abre en modo oscuro, sin mirar prefers-color-scheme.
+ * Claro es el default del sitio: una primera visita (sin preferencia
+ * guardada) siempre abre en modo claro, sin mirar prefers-color-scheme.
  * Una vez el usuario cambia el tema manualmente, esa elección se respeta.
  */
 export function ThemeScript() {
@@ -57,7 +57,7 @@ export function ThemeScript() {
     (function () {
       try {
         var stored = window.localStorage.getItem('${STORAGE_KEY}');
-        var theme = stored === 'light' ? 'light' : 'dark';
+        var theme = stored === 'dark' ? 'dark' : 'light';
         document.documentElement.setAttribute('data-theme', theme);
       } catch (e) {}
     })();
