@@ -20,6 +20,7 @@ export const siteConfig = {
     { label: "Metodología", href: "/proceso" },
     { label: "Estándares", href: "/estandares" },
     { label: "Conceptos", href: "/conceptos" },
+    { label: "Preguntas", href: "/preguntas-frecuentes" },
     { label: "Contacto", href: "/contacto" },
   ],
 } as const;

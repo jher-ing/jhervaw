@@ -8,6 +8,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
     "/nosotros",
     "/proceso",
     "/estandares",
+    "/preguntas-frecuentes",
     "/conceptos",
     "/conceptos/restaurante",
     "/conceptos/hotel",
