@@ -12,7 +12,9 @@ export function Footer() {
         <div className="flex flex-col justify-between gap-10 md:flex-row">
           <div className="flex flex-col gap-4 md:max-w-xs">
             <Logo />
-            <p className="text-sm text-text-secondary">{siteConfig.tagline}.</p>
+            <p className="text-sm text-text-secondary">
+              {siteConfig.tagline} para negocios en toda Colombia.
+            </p>
           </div>
 
           <nav aria-label="Navegación de pie de página" className="flex flex-wrap gap-x-10 gap-y-4">

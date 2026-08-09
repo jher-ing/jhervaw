@@ -30,8 +30,8 @@ export function Hero() {
           style={{ animationDelay: "80ms" }}
         >
           Diseñamos y construimos sitios web, landing pages y productos digitales
-          que combinan diseño moderno, rigor técnico y estrategia de conversión —
-          no sitios bonitos que nadie convierte.
+          para negocios en toda Colombia, combinando diseño moderno, rigor técnico
+          y estrategia de conversión — no sitios bonitos que nadie convierte.
         </p>
 
         <div

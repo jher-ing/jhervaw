@@ -1,6 +1,7 @@
 import type { Metadata, Viewport } from "next";
 import type * as React from "react";
 import { Space_Grotesk, Inter } from "next/font/google";
+import { Analytics } from "@vercel/analytics/next";
 import "./globals.css";
 import { siteConfig } from "@/config/site";
 import { SkipLink } from "@/components/ui/SkipLink";
@@ -46,11 +47,20 @@ export const metadata: Metadata = {
     siteName: siteConfig.name,
     title: `${siteConfig.name} — ${siteConfig.tagline}`,
     description: siteConfig.description,
+    images: [
+      {
+        url: siteConfig.ogImage.url,
+        width: siteConfig.ogImage.width,
+        height: siteConfig.ogImage.height,
+        alt: `${siteConfig.name} — ${siteConfig.tagline}`,
+      },
+    ],
   },
   twitter: {
     card: "summary_large_image",
     title: `${siteConfig.name} — ${siteConfig.tagline}`,
     description: siteConfig.description,
+    images: [siteConfig.ogImage.url],
   },
   robots: {
     index: true,
@@ -69,12 +79,18 @@ export const viewport: Viewport = {
 
 const organizationJsonLd = {
   "@context": "https://schema.org",
-  "@type": "Organization",
+  "@type": "ProfessionalService",
   name: siteConfig.name,
   url: siteConfig.url,
   logo: `${siteConfig.url}/logo.png`,
+  image: `${siteConfig.url}${siteConfig.ogImage.url}`,
   description: siteConfig.description,
   telephone: siteConfig.phone.display,
+  serviceType: "Diseño y desarrollo web",
+  areaServed: {
+    "@type": "Country",
+    name: "Colombia",
+  },
 };
 
 export default function RootLayout({ children }: Readonly<{ children: React.ReactNode }>) {
@@ -99,6 +115,7 @@ export default function RootLayout({ children }: Readonly<{ children: React.Reac
           {children}
         </main>
         <Footer />
+        <Analytics />
       </body>
     </html>
   );

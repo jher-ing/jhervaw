@@ -14,6 +14,14 @@ export function pageMetadata({
   path: string;
 }): Metadata {
   const url = `${siteConfig.url}${path}`;
+  const images = [
+    {
+      url: siteConfig.ogImage.url,
+      width: siteConfig.ogImage.width,
+      height: siteConfig.ogImage.height,
+      alt: `${siteConfig.name} — ${siteConfig.tagline}`,
+    },
+  ];
   return {
     title,
     description,
@@ -22,10 +30,12 @@ export function pageMetadata({
       title: `${title} | ${siteConfig.name}`,
       description,
       url,
+      images,
     },
     twitter: {
       title: `${title} | ${siteConfig.name}`,
       description,
+      images: [siteConfig.ogImage.url],
     },
   };
 }

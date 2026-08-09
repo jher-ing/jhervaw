@@ -55,12 +55,12 @@ export default function NosotrosPage() {
             Un estudio que se especializa en hacer las cosas bien
           </h1>
           <p className="max-w-2xl text-lg text-text-secondary text-pretty">
-            Jherva es un estudio de desarrollo web y producto digital. Diseñamos y
-            construimos sitios web, landing pages, propuestas y productos digitales
-            para clientes de cualquier sector — desde negocios locales hasta
-            startups y empresas medianas. No nos especializamos en una sola
-            industria: nos especializamos en hacer las cosas bien, sin importar
-            para quién.
+            Jherva es un estudio de desarrollo web y producto digital para
+            negocios en toda Colombia. Diseñamos y construimos sitios web,
+            landing pages, propuestas y productos digitales para clientes de
+            cualquier sector — desde negocios locales hasta startups y empresas
+            medianas. No nos especializamos en una sola industria: nos
+            especializamos en hacer las cosas bien, sin importar para quién.
           </p>
         </div>
       </Section>
