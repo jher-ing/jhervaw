@@ -1,6 +1,8 @@
 
 import type { MetadataRoute } from "next";
 import { siteConfig } from "@/config/site";
+import { nichosServicio } from "@/components/features/servicios/nichos-servicio";
+import { niches } from "@/components/features/concepts/niches";
 
 export default function sitemap(): MetadataRoute.Sitemap {
   const routes = [
@@ -10,16 +12,17 @@ export default function sitemap(): MetadataRoute.Sitemap {
     "/estandares",
     "/preguntas-frecuentes",
     "/conceptos",
-    "/conceptos/restaurante",
-    "/conceptos/hotel",
-    "/conceptos/tienda-de-ropa",
+    "/paginas-web-para",
     "/contacto",
   ];
 
-  return routes.map((route) => ({
+  const conceptoRoutes = niches.map((n) => n.href);
+  const servicioRoutes = nichosServicio.map((n) => `/paginas-web-para/${n.slug}`);
+
+  return [...routes, ...conceptoRoutes, ...servicioRoutes].map((route) => ({
     url: `${siteConfig.url}${route}`,
     lastModified: new Date(),
     changeFrequency: "monthly",
-    priority: route === "" ? 1 : 0.7,
+    priority: route === "" ? 1 : route.startsWith("/paginas-web-para/") ? 0.85 : 0.7,
   }));
 }

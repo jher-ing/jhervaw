@@ -32,6 +32,14 @@ export function Footer() {
                   </Link>
                 </li>
               ))}
+              <li>
+                <Link
+                  href="/paginas-web-para"
+                  className="text-sm text-text-secondary transition-colors hover:text-text-primary"
+                >
+                  Páginas por negocio
+                </Link>
+              </li>
             </ul>
 
             <ul className="flex flex-col gap-3">

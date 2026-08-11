@@ -1,15 +1,20 @@
 import Link from "next/link";
-import type { ComponentType } from "react";
-import { ArrowLeft, Info } from "lucide-react";
+import Image from "next/image";
+import { ArrowLeft, ArrowRight, Info } from "lucide-react";
 import { Section, Eyebrow } from "@/components/ui/Section";
+import { Button } from "@/components/ui/Button";
+import { BrowserFrame } from "./BrowserFrame";
 import type { NicheConfig } from "./niches";
 
 /**
- * Cabecera + demo completa de un concepto. El disclaimer se repite aquí
+ * Cabecera + mockup estático de un concepto. El disclaimer se repite aquí
  * (no solo en la galería /conceptos) porque esta página es alcanzable por
  * URL directa, sin pasar necesariamente por la galería primero.
+ *
+ * Nivel 1 únicamente: imagen dentro de un marco de navegador — sin menús
+ * clickeables, categorías ni segundas pantallas (decisión del 2026-08-09).
  */
-export function ConceptDetail({ niche, Concept }: { niche: NicheConfig; Concept: ComponentType }) {
+export function ConceptDetail({ niche }: { niche: NicheConfig }) {
   const Icon = niche.icon;
 
   return (
@@ -42,13 +47,30 @@ export function ConceptDetail({ niche, Concept }: { niche: NicheConfig; Concept:
               Es una exploración de diseño con marca y contenido ficticios.
             </p>
           </div>
+
+          {niche.servicioSlug && (
+            <Button href={`/paginas-web-para/${niche.servicioSlug}`} variant="outline" className="w-fit">
+              Ver qué gana tu negocio con una web así
+              <ArrowRight size={16} aria-hidden />
+            </Button>
+          )}
         </div>
       </Section>
 
       <Section className="pt-0">
-        {/* Puente semántico h1 → h2 → h3 (el hero interno del concepto usa h3) */}
         <h2 className="sr-only">Vista previa del concepto</h2>
-        <Concept />
+        <BrowserFrame url={niche.hero.url} className="w-full shadow-lg">
+          <div className="relative aspect-[3/2] w-full">
+            <Image
+              src={niche.image}
+              alt={`Mockup del concepto de sitio web para ${niche.title.toLowerCase()}`}
+              fill
+              priority
+              sizes="(min-width: 1024px) 900px, 100vw"
+              className="object-cover"
+            />
+          </div>
+        </BrowserFrame>
       </Section>
     </>
   );

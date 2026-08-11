@@ -28,7 +28,7 @@ export function Header() {
       <div className="mx-auto flex h-16 max-w-[1200px] items-center justify-between px-4 sm:px-6 lg:px-8">
         <Logo />
 
-        <nav aria-label="Navegación principal" className="hidden items-center gap-1 md:flex">
+        <nav aria-label="Navegación principal" className="hidden items-center gap-1 lg:flex">
           {siteConfig.nav.map((item) => {
             const active = pathname === item.href;
             return (
@@ -49,14 +49,14 @@ export function Header() {
           })}
         </nav>
 
-        <div className="hidden items-center gap-3 md:flex">
+        <div className="hidden items-center gap-3 lg:flex">
           <ThemeToggle />
           <Button href="/contacto" size="md">
             Hablemos
           </Button>
         </div>
 
-        <div className="flex items-center gap-2 md:hidden">
+        <div className="flex items-center gap-2 lg:hidden">
           <ThemeToggle />
           <button
             type="button"
@@ -75,7 +75,7 @@ export function Header() {
         <nav
           id="mobile-nav"
           aria-label="Navegación principal (mobile)"
-          className="border-t border-border/70 bg-background px-4 pb-6 pt-2 md:hidden"
+          className="border-t border-border/70 bg-background px-4 pb-6 pt-2 lg:hidden"
         >
           <ul className="flex flex-col gap-1">
             {siteConfig.nav.map((item) => {

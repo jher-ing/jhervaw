@@ -1,19 +1,8 @@
 import type { LucideIcon } from "lucide-react";
-import { UtensilsCrossed, BedDouble, Shirt, Leaf, Clock, MapPin, Sparkles, Truck, Tag } from "lucide-react";
-
-export interface NicheBadge {
-  icon: LucideIcon;
-  label: string;
-}
+import { UtensilsCrossed, BedDouble, Shirt, Scissors, Dumbbell, Sparkles } from "lucide-react";
 
 export interface NicheHeroContent {
   url: string;
-  eyebrowLabel: string;
-  headline: string;
-  subtext: string;
-  primaryCta: string;
-  secondaryCta: string;
-  badges: [NicheBadge, NicheBadge];
 }
 
 export interface NicheConfig {
@@ -27,15 +16,17 @@ export interface NicheConfig {
   features: string[];
   /** Mockup de página completa (1536x1024) usado en la tarjeta de la galería. */
   image: string;
-  /** Paleta local del mockup — no toca los tokens de marca de Jherva. */
-  palette: Record<string, string>;
   hero: NicheHeroContent;
+  /** Slug de la landing comercial equivalente en /paginas-web-para, si existe. */
+  servicioSlug?: string;
 }
 
 /**
- * Fuente de verdad única para los tres conceptos de ejemplo (no son clientes
+ * Fuente de verdad única para los conceptos de ejemplo (no son clientes
  * reales de Jherva). La usan tanto la galería /conceptos como cada página de
- * detalle, para que el mockup mostrado sea siempre el mismo.
+ * detalle, para que el mockup mostrado sea siempre el mismo. Nivel 1
+ * únicamente: imagen estática dentro de un marco de navegador — sin demos
+ * interactivas (ver IDENTITY.md / decisión del 2026-08-09).
  */
 export const niches: NicheConfig[] = [
   {
@@ -46,6 +37,7 @@ export const niches: NicheConfig[] = [
     description:
       "Sitio pensado para restaurantes modernos que buscan transmitir calidad y facilitar las reservas.",
     image: "/restaurante.webp",
+    servicioSlug: "restaurantes",
     features: [
       "Hero gastronómico impactante",
       "Menú digital",
@@ -53,26 +45,7 @@ export const niches: NicheConfig[] = [
       "Adaptado a móviles",
       "Optimizado para conversión",
     ],
-    palette: {
-      "--n-bg": "#181310",
-      "--n-surface": "#211a15",
-      "--n-text": "#f4ece1",
-      "--n-text-muted": "#a89a8a",
-      "--n-accent": "#c9743c",
-      "--n-border": "#332822",
-    },
-    hero: {
-      url: "restaurante-concepto.com",
-      eyebrowLabel: "Cocina de temporada",
-      headline: "Sabores con carácter, en cada plato",
-      subtext: "Ingredientes locales, técnica clásica y una carta que cambia con las estaciones.",
-      primaryCta: "Reservar mesa",
-      secondaryCta: "Ver menú",
-      badges: [
-        { icon: Leaf, label: "Ingredientes locales" },
-        { icon: Clock, label: "Reserva en 2 min" },
-      ],
-    },
+    hero: { url: "restaurante-concepto.com" },
   },
   {
     id: "hotel",
@@ -81,6 +54,7 @@ export const niches: NicheConfig[] = [
     title: "Hotel",
     description: "Sitio diseñado para hoteles boutique y alojamientos premium.",
     image: "/hotel.webp",
+    servicioSlug: "hoteles",
     features: [
       "Hero con fotografía inmersiva",
       "Buscador de disponibilidad",
@@ -88,26 +62,7 @@ export const niches: NicheConfig[] = [
       "Reserva directa",
       "Diseño elegante",
     ],
-    palette: {
-      "--n-bg": "#f6f1e6",
-      "--n-surface": "#ffffff",
-      "--n-text": "#2b2620",
-      "--n-text-muted": "#6f6558",
-      "--n-accent": "#2f4a3f",
-      "--n-border": "#e2d9c6",
-    },
-    hero: {
-      url: "hotel-concepto.com",
-      eyebrowLabel: "Hospitalidad boutique",
-      headline: "Descansa en un lugar memorable",
-      subtext: "Habitaciones diseñadas para desconectar, en el corazón de la ciudad.",
-      primaryCta: "Ver habitaciones",
-      secondaryCta: "Contáctanos",
-      badges: [
-        { icon: MapPin, label: "Centro de la ciudad" },
-        { icon: Sparkles, label: "Servicio premium" },
-      ],
-    },
+    hero: { url: "hotel-concepto.com" },
   },
   {
     id: "tienda-de-ropa",
@@ -116,27 +71,60 @@ export const niches: NicheConfig[] = [
     title: "Tienda de ropa",
     description: "Ecommerce moderno enfocado en vender productos.",
     image: "/ropa.webp",
+    servicioSlug: "tiendas-de-ropa",
     features: ["Hero editorial", "Catálogo organizado", "Filtros", "Carrito", "Checkout intuitivo"],
-    palette: {
-      "--n-bg": "#f7f7f4",
-      "--n-surface": "#ffffff",
-      "--n-text": "#131313",
-      "--n-text-muted": "#6a6a64",
-      "--n-accent": "#2b57ff",
-      "--n-border": "#e4e3dd",
-    },
-    hero: {
-      url: "tienda-concepto.com",
-      eyebrowLabel: "Colección actual",
-      headline: "Diseño que se usa, no que se guarda",
-      subtext: "Piezas esenciales, hechas para durar más de una temporada.",
-      primaryCta: "Ver colección",
-      secondaryCta: "Nuestra historia",
-      badges: [
-        { icon: Truck, label: "Envío en 24h" },
-        { icon: Tag, label: "Piezas limitadas" },
-      ],
-    },
+    hero: { url: "tienda-concepto.com" },
+  },
+  {
+    id: "barberia",
+    href: "/conceptos/barberia",
+    icon: Scissors,
+    title: "Barbería",
+    description: "Sitio pensado para barberías que buscan turnos claros y una imagen profesional.",
+    image: "/barberias.webp",
+    servicioSlug: "barberias",
+    features: [
+      "Reserva de turno visible",
+      "Galería de cortes y estilos",
+      "Ubicación y horario siempre a mano",
+      "Adaptado a móviles",
+      "Optimizado para conversión",
+    ],
+    hero: { url: "barberia-concepto.com" },
+  },
+  {
+    id: "gimnasio",
+    href: "/conceptos/gimnasio",
+    icon: Dumbbell,
+    title: "Gimnasio",
+    description: "Sitio pensado para gimnasios y entrenadores que buscan inscripciones sin fricción.",
+    image: "/gimnasios.webp",
+    servicioSlug: "gimnasios",
+    features: [
+      "Planes y horarios claros",
+      "Inscripción sin fricción",
+      "Aparece en búsquedas locales",
+      "Adaptado a móviles",
+      "Optimizado para conversión",
+    ],
+    hero: { url: "gimnasio-concepto.com" },
+  },
+  {
+    id: "centro-de-estetica",
+    href: "/conceptos/centro-de-estetica",
+    icon: Sparkles,
+    title: "Centro de estética",
+    description: "Sitio pensado para centros de estética que buscan agenda simple y confianza previa.",
+    image: "/centros-de-estetica.webp",
+    servicioSlug: "centros-de-estetica",
+    features: [
+      "Tratamientos explicados con claridad",
+      "Agenda de citas simple",
+      "Imagen que genera confianza",
+      "Adaptado a móviles",
+      "Optimizado para conversión",
+    ],
+    hero: { url: "estetica-concepto.com" },
   },
 ];
 

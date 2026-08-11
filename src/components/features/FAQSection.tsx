@@ -134,12 +134,17 @@ const faqJsonLd = {
 export function FAQSection({ showHeading = true }: { showHeading?: boolean }) {
   return (
     <Section id="faq">
-      {showHeading && (
+      {showHeading ? (
         <SectionHeading
           eyebrow="Preguntas frecuentes"
           title="Todo lo que necesitas saber antes de crear tu página web"
           description="Respuestas directas, organizadas por tema, para resolver las dudas más comunes antes de empezar un proyecto digital."
         />
+      ) : (
+        // Puente semántico h1 → h2 → h3: el h1 de la página ya cubre este
+        // título, pero los h3 de cada cluster (abajo) necesitan un h2
+        // ancestro real en el DOM para no saltar de nivel.
+        <h2 className="sr-only">Preguntas frecuentes por tema</h2>
       )}
 
       <nav

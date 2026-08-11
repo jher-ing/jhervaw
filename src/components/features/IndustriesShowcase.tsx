@@ -5,12 +5,9 @@ import Image from "next/image";
 import Link from "next/link";
 import {
   ArrowRight,
-  Scissors,
   Coffee,
-  Dumbbell,
   Stethoscope,
   Hospital,
-  Sparkles,
   PawPrint,
   Home as HomeIcon,
   Scale,
@@ -32,7 +29,14 @@ import { Button } from "@/components/ui/Button";
 import { BrowserFrame } from "@/components/features/concepts/BrowserFrame";
 import { getNiche } from "@/components/features/concepts/niches";
 
-const availableConcepts = ["restaurante", "hotel", "tienda-de-ropa"].map((id) => getNiche(id)!);
+const availableConcepts = [
+  "restaurante",
+  "hotel",
+  "tienda-de-ropa",
+  "barberia",
+  "gimnasio",
+  "centro-de-estetica",
+].map((id) => getNiche(id)!);
 
 /**
  * Nichos aspiracionales: comunican amplitud de capacidad, no trabajos
@@ -40,12 +44,9 @@ const availableConcepts = ["restaurante", "hotel", "tienda-de-ropa"].map((id) =>
  * no una lista de proyectos (ver IDENTITY.md — nunca inventar clientes).
  */
 const otherIndustries = [
-  { icon: Scissors, label: "Barberías" },
   { icon: Coffee, label: "Cafeterías" },
-  { icon: Dumbbell, label: "Gimnasios" },
   { icon: Stethoscope, label: "Clínicas" },
   { icon: Hospital, label: "Centros médicos" },
-  { icon: Sparkles, label: "Centros de estética" },
   { icon: PawPrint, label: "Veterinarias" },
   { icon: HomeIcon, label: "Inmobiliarias" },
   { icon: Scale, label: "Estudios jurídicos" },

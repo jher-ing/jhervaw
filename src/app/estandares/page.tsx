@@ -47,7 +47,14 @@ export default function EstandaresPage() {
       </Section>
 
       <Section tone="raised">
-        <StandardsPreviewGrid />
+        <SectionHeading
+          eyebrow="El estándar completo"
+          title="Las 12 áreas que cubre cada proyecto"
+          description="Desde arquitectura hasta checklists de entrega — ningún proyecto se considera terminado si falta alguna de estas."
+        />
+        <div className="mt-12">
+          <StandardsPreviewGrid />
+        </div>
       </Section>
 
       <Section>

@@ -9,7 +9,7 @@ import { pageMetadata } from "@/lib/metadata";
 export const metadata: Metadata = pageMetadata({
   title: "Conceptos",
   description:
-    "Exploraciones de diseño de Jherva aplicadas a distintos rubros — restaurante, hotel y tienda de ropa. No son clientes reales.",
+    "Exploraciones de diseño de Jherva aplicadas a distintos rubros — restaurantes, hoteles, tiendas de ropa, barberías, gimnasios y centros de estética. No son clientes reales.",
   path: "/conceptos",
 });
 
@@ -26,8 +26,7 @@ export default function ConceptosPage() {
             El sistema de diseño de Jherva (grid, jerarquía, accesibilidad,
             performance) no cambia entre proyectos — la identidad visual sí,
             porque en un proyecto de cliente refleja su marca, no la nuestra.
-            Estos son ejemplos de esa adaptación aplicados a tres rubros
-            distintos.
+            Estos son ejemplos de esa adaptación aplicados a distintos rubros.
           </p>
 
           <div className="mt-2 flex max-w-2xl items-start gap-3 rounded-xl border border-border bg-surface-raised p-5 text-left">
