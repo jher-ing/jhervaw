@@ -24,7 +24,7 @@ export const siteConfig = {
     { label: "Nosotros", href: "/nosotros" },
     { label: "Metodología", href: "/proceso" },
     { label: "Estándares", href: "/estandares" },
-    { label: "Conceptos", href: "/conceptos" },
+    { label: "Portafolio", href: "/portafolio" },
     { label: "Preguntas", href: "/preguntas-frecuentes" },
     { label: "Contacto", href: "/contacto" },
   ],

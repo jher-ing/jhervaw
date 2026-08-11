@@ -69,7 +69,7 @@ export default async function ServicioNichoPage({
             </Button>
             {niche.mockup ? (
               <Button href={niche.mockup.href} size="lg" variant="outline">
-                Ver el concepto de diseño
+                Ver en el portafolio
               </Button>
             ) : (
               <Button href="/contacto" size="lg" variant="outline">
@@ -95,9 +95,9 @@ export default async function ServicioNichoPage({
               </div>
             </BrowserFrame>
             <p className="mt-4 text-center text-sm text-text-muted">
-              Concepto de diseño de Jherva — no es un cliente real.{" "}
+              Ejemplo de nuestro portafolio — no es un cliente real.{" "}
               <Link href={niche.mockup.href} className="underline hover:text-text-secondary">
-                Ver el concepto completo
+                Ver en el portafolio
               </Link>
             </p>
           </div>

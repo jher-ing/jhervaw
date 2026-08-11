@@ -11,15 +11,15 @@ export default function sitemap(): MetadataRoute.Sitemap {
     "/proceso",
     "/estandares",
     "/preguntas-frecuentes",
-    "/conceptos",
+    "/portafolio",
     "/paginas-web-para",
     "/contacto",
   ];
 
-  const conceptoRoutes = niches.map((n) => n.href);
+  const portafolioRoutes = niches.map((n) => n.href);
   const servicioRoutes = nichosServicio.map((n) => `/paginas-web-para/${n.slug}`);
 
-  return [...routes, ...conceptoRoutes, ...servicioRoutes].map((route) => ({
+  return [...routes, ...portafolioRoutes, ...servicioRoutes].map((route) => ({
     url: `${siteConfig.url}${route}`,
     lastModified: new Date(),
     changeFrequency: "monthly",

@@ -7,18 +7,18 @@ import { niches } from "@/components/features/concepts/niches";
 import { pageMetadata } from "@/lib/metadata";
 
 export const metadata: Metadata = pageMetadata({
-  title: "Conceptos",
+  title: "Portafolio",
   description:
     "Exploraciones de diseño de Jherva aplicadas a distintos rubros — restaurantes, hoteles, tiendas de ropa, barberías, gimnasios y centros de estética. No son clientes reales.",
-  path: "/conceptos",
+  path: "/portafolio",
 });
 
-export default function ConceptosPage() {
+export default function PortafolioPage() {
   return (
     <>
       <Section className="pb-8">
         <div className="flex flex-col items-center gap-6 text-center">
-          <Eyebrow>Conceptos</Eyebrow>
+          <Eyebrow>Portafolio</Eyebrow>
           <h1 className="max-w-3xl text-4xl font-semibold text-balance sm:text-5xl">
             Un mismo estándar, distintas identidades
           </h1>

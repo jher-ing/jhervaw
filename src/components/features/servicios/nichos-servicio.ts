@@ -14,7 +14,7 @@ export interface ServicioNicho {
   metaDescription: string;
   painPoint: string;
   benefits: string[];
-  /** Solo los nichos con concepto visual ya construido en /conceptos. */
+  /** Solo los nichos con proyecto de portafolio ya construido en /portafolio. */
   mockup?: {
     image: string;
     href: string;
@@ -24,9 +24,9 @@ export interface ServicioNicho {
 
 /**
  * Landing pages comerciales por nicho — Fase 2 de la estrategia SEO.
- * Distintas de /conceptos: acá el objetivo es capturar intención de compra
+ * Distintas de /portafolio: acá el objetivo es capturar intención de compra
  * ("página web para restaurante"), no mostrar portafolio de diseño. Copy
- * propio, no duplicado de /conceptos, para evitar contenido casi idéntico
+ * propio, no duplicado de /portafolio, para evitar contenido casi idéntico
  * entre ambas rutas. Sin precios inventados — todo cierra en WhatsApp.
  */
 export const nichosServicio: ServicioNicho[] = [
@@ -45,7 +45,7 @@ export const nichosServicio: ServicioNicho[] = [
       "Fotografía y ambientación que transmiten la experiencia antes de que el cliente llegue",
       "Aparecés en Google cuando alguien busca dónde comer cerca",
     ],
-    mockup: { image: "/restaurante.webp", href: "/conceptos/restaurante" },
+    mockup: { image: "/restaurante.webp", href: "/portafolio/restaurante" },
     faq: [
       {
         question: "¿Puedo incluir reservas online en la página de mi restaurante?",
@@ -74,7 +74,7 @@ export const nichosServicio: ServicioNicho[] = [
       "Buscador de disponibilidad simple, sin fricción",
       "Una identidad propia, no una ficha más en un listado genérico",
     ],
-    mockup: { image: "/hotel.webp", href: "/conceptos/hotel" },
+    mockup: { image: "/hotel.webp", href: "/portafolio/hotel" },
     faq: [
       {
         question: "¿Sirve para posadas o fincas pequeñas, no solo hoteles grandes?",
@@ -103,7 +103,7 @@ export const nichosServicio: ServicioNicho[] = [
       "Filtros por talla, color o categoría — algo que Instagram no ofrece",
       "Imagen de marca profesional que no depende del algoritmo de una red social",
     ],
-    mockup: { image: "/ropa.webp", href: "/conceptos/tienda-de-ropa" },
+    mockup: { image: "/ropa.webp", href: "/portafolio/tienda-de-ropa" },
     faq: [
       {
         question: "¿Puedo conectar una pasarela de pago colombiana?",
@@ -132,7 +132,7 @@ export const nichosServicio: ServicioNicho[] = [
       "Ubicación y horario siempre visibles, sin que pregunten 'a qué hora abren'",
       "Una imagen que compite con las barberías que sí se ven profesionales",
     ],
-    mockup: { image: "/barberias.webp", href: "/conceptos/barberia" },
+    mockup: { image: "/barberias.webp", href: "/portafolio/barberia" },
     faq: [
       {
         question: "¿Necesito un sistema de citas complejo?",
@@ -161,7 +161,7 @@ export const nichosServicio: ServicioNicho[] = [
       "Formulario o WhatsApp directo para inscripciones, sin fricción",
       "Una imagen que refleja resultados reales, no solo fotos sueltas de Instagram",
     ],
-    mockup: { image: "/gimnasios.webp", href: "/conceptos/gimnasio" },
+    mockup: { image: "/gimnasios.webp", href: "/portafolio/gimnasio" },
     faq: [
       {
         question: "¿Puedo mostrar mis planes de membresía en la página?",
@@ -190,7 +190,7 @@ export const nichosServicio: ServicioNicho[] = [
       "Fotos de antes/después organizadas y presentadas con profesionalismo",
       "Una web genera más confianza que solo una cuenta de Instagram para decidir un tratamiento",
     ],
-    mockup: { image: "/centros-de-estetica.webp", href: "/conceptos/centro-de-estetica" },
+    mockup: { image: "/centros-de-estetica.webp", href: "/portafolio/centro-de-estetica" },
     faq: [
       {
         question: "¿Puedo mostrar fotos de antes y después?",

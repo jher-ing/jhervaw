@@ -18,13 +18,13 @@ export async function generateMetadata({
   const niche = getNiche(slug);
   if (!niche) return {};
   return pageMetadata({
-    title: `Concepto — ${niche.title}`,
+    title: `Portafolio — ${niche.title}`,
     description: niche.description,
     path: niche.href,
   });
 }
 
-export default async function ConceptoPage({
+export default async function PortafolioDetailPage({
   params,
 }: {
   params: Promise<{ slug: string }>;

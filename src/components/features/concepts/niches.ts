@@ -10,7 +10,7 @@ export interface NicheConfig {
   href: string;
   icon: LucideIcon;
   title: string;
-  /** Descripción corta usada en la tarjeta de la galería /conceptos. */
+  /** Descripción corta usada en la tarjeta de la galería /portafolio. */
   description: string;
   /** Checklist de características mostrado en la tarjeta de la galería. */
   features: string[];
@@ -23,7 +23,7 @@ export interface NicheConfig {
 
 /**
  * Fuente de verdad única para los conceptos de ejemplo (no son clientes
- * reales de Jherva). La usan tanto la galería /conceptos como cada página de
+ * reales de Jherva). La usan tanto la galería /portafolio como cada página de
  * detalle, para que el mockup mostrado sea siempre el mismo. Nivel 1
  * únicamente: imagen estática dentro de un marco de navegador — sin demos
  * interactivas (ver IDENTITY.md / decisión del 2026-08-09).
@@ -31,7 +31,7 @@ export interface NicheConfig {
 export const niches: NicheConfig[] = [
   {
     id: "restaurante",
-    href: "/conceptos/restaurante",
+    href: "/portafolio/restaurante",
     icon: UtensilsCrossed,
     title: "Restaurante",
     description:
@@ -49,7 +49,7 @@ export const niches: NicheConfig[] = [
   },
   {
     id: "hotel",
-    href: "/conceptos/hotel",
+    href: "/portafolio/hotel",
     icon: BedDouble,
     title: "Hotel",
     description: "Sitio diseñado para hoteles boutique y alojamientos premium.",
@@ -66,7 +66,7 @@ export const niches: NicheConfig[] = [
   },
   {
     id: "tienda-de-ropa",
-    href: "/conceptos/tienda-de-ropa",
+    href: "/portafolio/tienda-de-ropa",
     icon: Shirt,
     title: "Tienda de ropa",
     description: "Ecommerce moderno enfocado en vender productos.",
@@ -77,7 +77,7 @@ export const niches: NicheConfig[] = [
   },
   {
     id: "barberia",
-    href: "/conceptos/barberia",
+    href: "/portafolio/barberia",
     icon: Scissors,
     title: "Barbería",
     description: "Sitio pensado para barberías que buscan turnos claros y una imagen profesional.",
@@ -94,7 +94,7 @@ export const niches: NicheConfig[] = [
   },
   {
     id: "gimnasio",
-    href: "/conceptos/gimnasio",
+    href: "/portafolio/gimnasio",
     icon: Dumbbell,
     title: "Gimnasio",
     description: "Sitio pensado para gimnasios y entrenadores que buscan inscripciones sin fricción.",
@@ -111,7 +111,7 @@ export const niches: NicheConfig[] = [
   },
   {
     id: "centro-de-estetica",
-    href: "/conceptos/centro-de-estetica",
+    href: "/portafolio/centro-de-estetica",
     icon: Sparkles,
     title: "Centro de estética",
     description: "Sitio pensado para centros de estética que buscan agenda simple y confianza previa.",

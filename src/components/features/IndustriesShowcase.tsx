@@ -87,20 +87,20 @@ export function IndustriesShowcase() {
               manteniendo un mismo estándar de calidad, rendimiento y conversión.
             </p>
             <p className="text-base leading-relaxed text-white/65 sm:text-lg">
-              Explora algunos de nuestros conceptos y descubre cómo podría verse la
-              presencia digital de tu negocio.
+              Explora algunos de los proyectos de nuestro portafolio y descubre cómo
+              podría verse la presencia digital de tu negocio.
             </p>
           </div>
 
-          <Button href="/conceptos" className="mt-8">
-            Explorar conceptos
+          <Button href="/portafolio" className="mt-8">
+            Ver portafolio
             <ArrowRight size={16} aria-hidden />
           </Button>
 
           <div className="mt-10 flex flex-col items-center gap-6">
             <div className="flex flex-col items-center gap-3">
               <h3 className="text-xs font-medium tracking-wide text-white/50 uppercase">
-                Conceptos disponibles
+                Portafolio disponible
               </h3>
               <ul className="flex flex-wrap justify-center gap-2.5">
                 {availableConcepts.map((niche) => {

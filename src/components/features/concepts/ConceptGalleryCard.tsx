@@ -5,7 +5,7 @@ import { BrowserFrame } from "./BrowserFrame";
 import type { NicheConfig } from "./niches";
 
 /**
- * Tarjeta de la galería /conceptos: 65% mockup de página completa (imagen
+ * Tarjeta de la galería /portafolio: 65% mockup de página completa (imagen
  * real, provista por el usuario) + 35% panel descriptivo (voz de Jherva,
  * tone="ink"). Toda la tarjeta es un único enlace ("stretched link") hacia
  * el detalle, con `aria-label` propio para no heredar el ruido del
@@ -53,14 +53,14 @@ export function ConceptGalleryCard({ niche }: { niche: NicheConfig }) {
           aria-hidden
           className="mt-2 inline-flex w-fit items-center gap-2 text-sm font-medium text-white transition-transform duration-[var(--duration-fast)] group-hover:translate-x-1"
         >
-          Ver concepto
+          Ver más
           <ArrowRight size={16} className="text-indigo-light" aria-hidden />
         </span>
       </div>
 
       <Link
         href={niche.href}
-        aria-label={`Ver concepto de diseño para ${niche.title.toLowerCase()}`}
+        aria-label={`Ver más sobre ${niche.title.toLowerCase()}`}
         className="absolute inset-0 z-20 rounded-2xl"
       />
     </article>

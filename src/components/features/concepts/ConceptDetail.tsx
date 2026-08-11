@@ -7,9 +7,9 @@ import { BrowserFrame } from "./BrowserFrame";
 import type { NicheConfig } from "./niches";
 
 /**
- * Cabecera + mockup estático de un concepto. El disclaimer se repite aquí
- * (no solo en la galería /conceptos) porque esta página es alcanzable por
- * URL directa, sin pasar necesariamente por la galería primero.
+ * Cabecera + mockup estático de un proyecto del portafolio. El disclaimer se
+ * repite aquí (no solo en la galería /portafolio) porque esta página es
+ * alcanzable por URL directa, sin pasar necesariamente por la galería primero.
  *
  * Nivel 1 únicamente: imagen dentro de un marco de navegador — sin menús
  * clickeables, categorías ni segundas pantallas (decisión del 2026-08-09).
@@ -22,11 +22,11 @@ export function ConceptDetail({ niche }: { niche: NicheConfig }) {
       <Section className="pb-8">
         <div className="flex flex-col gap-6">
           <Link
-            href="/conceptos"
+            href="/portafolio"
             className="inline-flex w-fit items-center gap-2 text-sm font-medium text-text-secondary transition-colors duration-[var(--duration-fast)] hover:text-text-primary"
           >
             <ArrowLeft size={16} aria-hidden />
-            Volver a conceptos
+            Volver al portafolio
           </Link>
 
           <div className="flex flex-col gap-4">
@@ -34,7 +34,7 @@ export function ConceptDetail({ niche }: { niche: NicheConfig }) {
               <div className="flex size-11 shrink-0 items-center justify-center rounded-lg bg-primary/10 text-primary">
                 <Icon size={20} aria-hidden />
               </div>
-              <Eyebrow>Concepto de diseño</Eyebrow>
+              <Eyebrow>Portafolio</Eyebrow>
             </div>
             <h1 className="text-3xl font-semibold text-balance sm:text-4xl">{niche.title}</h1>
             <p className="max-w-2xl text-lg text-text-secondary text-pretty">{niche.description}</p>
@@ -58,7 +58,7 @@ export function ConceptDetail({ niche }: { niche: NicheConfig }) {
       </Section>
 
       <Section className="pt-0">
-        <h2 className="sr-only">Vista previa del concepto</h2>
+        <h2 className="sr-only">Vista previa del proyecto</h2>
         <BrowserFrame url={niche.hero.url} className="w-full shadow-lg">
           <div className="relative aspect-[3/2] w-full">
             <Image
