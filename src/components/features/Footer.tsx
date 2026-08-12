@@ -40,6 +40,14 @@ export function Footer() {
                   Páginas por negocio
                 </Link>
               </li>
+              <li>
+                <Link
+                  href="/blog"
+                  className="text-sm text-text-secondary transition-colors hover:text-text-primary"
+                >
+                  Blog
+                </Link>
+              </li>
             </ul>
 
             <ul className="flex flex-col gap-3">
