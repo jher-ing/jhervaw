@@ -165,6 +165,97 @@ export const articulos: Articulo[] = [
       },
     ],
   },
+  {
+    slug: "pagina-web-vs-instagram",
+    title: "Página web vs Instagram: ¿qué necesita tu negocio primero?",
+    metaDescription:
+      "Instagram y una página web no compiten: cada uno cumple una función distinta. Te explicamos qué hace cada uno y cuál necesita tu negocio primero.",
+    excerpt:
+      "No es elegir entre Instagram o página web — es entender qué hace cada uno y qué necesita tu negocio en este momento.",
+    publishedAt: "2026-08-13",
+    content: [
+      {
+        type: "p",
+        text: "\"Instagram o página web\" es una pregunta que muchos negocios se hacen, pero está mal planteada. No compiten entre sí — cada uno resuelve algo distinto. Para saber qué necesita tu negocio hoy, conviene entender primero qué hace bien cada canal.",
+      },
+      { type: "h2", text: "Qué hace mejor Instagram" },
+      {
+        type: "p",
+        text: "Instagram es muy bueno para generar atención y mostrar el lado humano del negocio. Sirve para enseñar productos, trabajos realizados, promociones, procesos y testimonios, y para mantener una relación constante con los clientes.",
+      },
+      {
+        type: "p",
+        text: "Es especialmente útil para negocios que dependen mucho de lo visual, como [restaurantes](/paginas-web-para/restaurantes), barberías, gimnasios, [tiendas](/paginas-web-para/tiendas-de-ropa) o [salones de belleza](/paginas-web-para/centros-de-estetica).",
+      },
+      { type: "h2", text: "Qué hace mejor una página web" },
+      {
+        type: "p",
+        text: "Una página web sirve para tener un espacio propio donde organizar toda la información del negocio: servicios, precios o productos, ubicación, horarios, [preguntas frecuentes](/preguntas-frecuentes), formularios, reservas y formas de contacto.",
+      },
+      { type: "p", text: "Además, puede ayudar a que las personas que buscan un servicio en Google encuentren tu negocio." },
+      { type: "h2", text: "Dónde se queda corto cada uno" },
+      { type: "h3", text: "Los límites de Instagram" },
+      {
+        type: "p",
+        text: "El problema es que la información queda repartida entre publicaciones, historias, destacados y mensajes. Alguien puede entrar al perfil y todavía tener dudas sobre precios, servicios, ubicación o cómo contratar. Además, el negocio depende de una plataforma que no controla.",
+      },
+      { type: "h3", text: "Los límites de una página web" },
+      {
+        type: "p",
+        text: "Una web tampoco lo hace todo. No necesariamente genera comunidad ni mantiene una conversación constante con los clientes — ahí las redes tienen una ventaja enorme. Una página puede ser excelente, pero si nadie llega a ella, tampoco genera resultados por sí sola.",
+      },
+      { type: "h2", text: "¿Cuál deberías tener primero?" },
+      {
+        type: "p",
+        text: "Depende del negocio y de su situación. No todos necesitan empezar creando una página web. Si un emprendimiento está comenzando y todavía está validando su producto o servicio, Instagram puede ser suficiente al inicio.",
+      },
+      {
+        type: "p",
+        text: "Pero cuando empieza a necesitar más información, recibir búsquedas desde Google o tener un lugar más profesional donde dirigir a los clientes, **la web empieza a tener mucho más sentido**.",
+      },
+      { type: "h2", text: "Señales de que tu negocio ya necesita una página web" },
+      {
+        type: "ul",
+        items: [
+          "Tus clientes preguntan constantemente cosas que podrían estar explicadas en un solo lugar: precios, servicios, horarios, ubicación, reservas o cómo comprar.",
+          "Querés que personas que todavía no te conocen te encuentren a través de Google.",
+          "Querés transmitir una imagen más profesional y tener un espacio propio para presentar lo que hacés.",
+        ],
+      },
+      { type: "h2", text: "¿Compiten Instagram y la web?" },
+      {
+        type: "p",
+        text: "No. Lo ideal es que trabajen juntos. Instagram puede llamar la atención y generar confianza; la página web puede recibir a esas personas y darles la información que necesitan para decidir. Una red social lleva tráfico hacia la web, y la web facilita el contacto o la conversión.",
+      },
+      { type: "h2", text: "El error que más cometen los negocios" },
+      {
+        type: "p",
+        text: "Pensar que tener presencia digital significa simplemente abrir un Instagram. Tener un perfil no garantiza que el cliente encuentre fácilmente toda la información que necesita.",
+      },
+      {
+        type: "p",
+        text: "Pero también es un error crear una página web solo porque \"hay que tener una\" — primero hay que saber para qué se va a usar.",
+      },
+      { type: "h2", text: "\"Ya tengo Instagram, no necesito una web\" — ¿es cierto?" },
+      {
+        type: "p",
+        text: "Probablemente Instagram ya te está funcionando para algunas cosas, pero vale la pena preguntarte qué está dejando de hacer. Si tus clientes encuentran fácilmente tus servicios, precios, ubicación y formas de contacto, quizás todavía no necesites una web.",
+      },
+      {
+        type: "p",
+        text: "Pero si constantemente respondés las mismas preguntas por mensaje, o querés captar personas que buscan tu servicio en Google, una web puede complementar muy bien lo que ya tenés.",
+      },
+      { type: "h2", text: "La pregunta correcta" },
+      {
+        type: "p",
+        text: "No se trata de elegir entre Instagram o una página web. Cada uno cumple una función diferente. Instagram te ayuda a llamar la atención, mostrar lo que hacés y conectar con personas. La web te ayuda a organizar la información, generar confianza y facilitar que un interesado dé el siguiente paso.",
+      },
+      {
+        type: "p",
+        text: "**La pregunta no debería ser \"¿cuál es mejor?\", sino \"¿qué necesita mi negocio en este momento?\"**",
+      },
+    ],
+  },
 ];
 
 export function getArticulo(slug: string): Articulo | undefined {
