@@ -42,12 +42,12 @@ const clusters: FaqCluster[] = [
       {
         question: "¿Cuáles son las mejores plataformas para diseñar una página web para mi empresa?",
         answer:
-          "Las más usadas son WordPress (flexible, ideal para contenido y blogs), Wix y Squarespace (fáciles de usar, sin conocimientos técnicos), Shopify (especializada en tiendas online) y desarrollo a medida con frameworks como Next.js (mayor rendimiento, seguridad y personalización). La mejor opción depende del presupuesto y los objetivos de conversión del negocio.",
+          "Las más usadas son WordPress (flexible, ideal para contenido y blogs), Wix y Squarespace (fáciles de usar, sin conocimientos técnicos), Shopify (especializada en tiendas online) y desarrollo a medida con frameworks como Next.js (mayor rendimiento, seguridad y personalización). La mejor opción depende del presupuesto y los objetivos de conversión del negocio: para validar una idea rápido, una plataforma de autoservicio puede alcanzar; cuando el sitio ya es una herramienta central del negocio, el desarrollo a medida — que es lo que hacemos en Jherva — suele justificar la diferencia.",
       },
       {
         question: "Plataformas fáciles para construir sitios web de negocios",
         answer:
-          "Wix, Squarespace y Webflow ofrecen editores visuales de arrastrar y soltar, ideales si no programas. WordPress con constructores como Elementor también es popular. Son rápidas de usar, pero suelen tener más limitaciones de personalización, rendimiento y escalabilidad que un desarrollo a medida.",
+          "Wix, Squarespace y Webflow ofrecen editores visuales de arrastrar y soltar, ideales si no programas. WordPress con constructores como Elementor también es popular. Son rápidas de usar, pero suelen tener más límites de personalización, rendimiento y escalabilidad que un desarrollo a medida — la diferencia se nota sobre todo cuando el sitio empieza a ser una pieza clave del negocio, y no solo una tarjeta de presentación.",
       },
     ],
   },
@@ -74,12 +74,12 @@ const clusters: FaqCluster[] = [
       {
         question: "¿Dónde puedo contratar servicios profesionales para desarrollar una página web comercial?",
         answer:
-          "Puedes contratar freelancers especializados, agencias de diseño y desarrollo web, o estudios de producto digital. Al elegir, revisa portafolio, casos de éxito, proceso de trabajo y si el SEO, rendimiento y seguridad forman parte del estándar de entrega, no de extras adicionales.",
+          "Puedes contratar freelancers especializados, agencias de diseño y desarrollo, o estudios de producto digital — cada uno con un enfoque distinto según el tamaño y la complejidad del proyecto. Lo que marca la diferencia no es tanto el tipo de proveedor, sino si el SEO, el rendimiento y la seguridad forman parte del estándar de entrega desde el principio, y no algo que se agrega después. Jherva es un estudio de diseño y desarrollo web enfocado en negocios en Colombia que buscan un sitio con ese nivel de rigor técnico.",
       },
       {
         question: "Empresas de diseño web en mi ciudad para pymes",
         answer:
-          "Búscalas en Google Maps, Google Business, LinkedIn o cámaras de comercio locales, filtrando por reseñas, portafolio y experiencia con negocios de tamaño similar al tuyo. Comparar al menos 2-3 opciones en calidad técnica, diseño, precio y soporte post-lanzamiento ayuda a decidir mejor.",
+          "Para una pyme, lo más importante no es solo encontrar quién haga la página, sino encontrar a alguien que entienda que tu negocio no tiene el mismo presupuesto ni las mismas necesidades que una empresa grande. Fíjate en el portafolio real, en si el proceso incluye SEO y rendimiento como parte del estándar (no como un extra que se cobra aparte), y en si puedes hablar directo con quien va a hacer el trabajo, sin intermediarios. En Jherva aplicamos este enfoque al diseñar y desarrollar sitios web para negocios de toda Colombia, desde barberías y restaurantes hasta tiendas y estudios pequeños.",
       },
     ],
   },
