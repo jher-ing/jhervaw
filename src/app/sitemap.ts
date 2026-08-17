@@ -14,6 +14,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
     "/preguntas-frecuentes",
     "/portafolio",
     "/paginas-web-para",
+    "/precios",
     "/blog",
     "/contacto",
   ];
