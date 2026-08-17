@@ -25,6 +25,7 @@ export const siteConfig = {
     { label: "Metodología", href: "/proceso" },
     { label: "Estándares", href: "/estandares" },
     { label: "Portafolio", href: "/portafolio" },
+    { label: "Precios", href: "/precios" },
     { label: "Preguntas", href: "/preguntas-frecuentes" },
     { label: "Contacto", href: "/contacto" },
   ],

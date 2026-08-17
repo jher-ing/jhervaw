@@ -26,9 +26,9 @@ export function Header() {
   return (
     <header className="sticky top-0 z-50 border-b border-border/70 bg-background/85 backdrop-blur-md">
       <div className="mx-auto flex h-16 max-w-[1200px] items-center justify-between px-4 sm:px-6 lg:px-8">
-        <Logo />
+        <Logo className="shrink-0" />
 
-        <nav aria-label="Navegación principal" className="hidden items-center gap-1 lg:flex">
+        <nav aria-label="Navegación principal" className="hidden shrink-0 items-center gap-1 lg:flex">
           {siteConfig.nav.map((item) => {
             const active = pathname === item.href;
             return (
@@ -37,7 +37,7 @@ export function Header() {
                 href={item.href}
                 aria-current={active ? "page" : undefined}
                 className={cn(
-                  "rounded-full px-4 py-2 text-sm font-medium transition-colors duration-[var(--duration-fast)]",
+                  "rounded-full px-2.5 py-2 text-sm font-medium whitespace-nowrap transition-colors duration-[var(--duration-fast)]",
                   active
                     ? "text-text-primary"
                     : "text-text-secondary hover:text-text-primary"
@@ -49,7 +49,7 @@ export function Header() {
           })}
         </nav>
 
-        <div className="hidden items-center gap-3 lg:flex">
+        <div className="hidden shrink-0 items-center gap-3 lg:flex">
           <ThemeToggle />
           <Button href="/contacto" size="md">
             Hablemos
