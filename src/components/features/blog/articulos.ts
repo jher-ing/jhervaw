@@ -256,6 +256,136 @@ export const articulos: Articulo[] = [
       },
     ],
   },
+  {
+    slug: "senales-que-pierdes-clientes-sin-pagina-web",
+    title: "Señales de que tu negocio está perdiendo clientes por no tener página web",
+    metaDescription:
+      "7 señales de que tu negocio está perdiendo clientes por no tener página web propia, y qué hacer si reconocés dos o tres en el tuyo.",
+    excerpt:
+      "Si tu negocio depende solo de redes sociales, podrías estar perdiendo clientes sin darte cuenta. Estas son las señales para reconocerlo.",
+    publishedAt: "2026-08-17",
+    content: [
+      {
+        type: "p",
+        text: "Hoy en día, muchas personas buscan un negocio en Internet antes de decidir si comprar, reservar o contactar. Tener redes sociales ayuda, pero no siempre es suficiente.",
+      },
+      {
+        type: "p",
+        text: "Si tu negocio depende únicamente de Instagram, Facebook o WhatsApp, podrías estar perdiendo clientes sin darte cuenta.",
+      },
+      { type: "p", text: "Estas son algunas señales de que tu negocio necesita una página web." },
+      { type: "h2", text: "1. Tus clientes siempre te preguntan lo mismo" },
+      { type: "p", text: "Si constantemente recibís preguntas como:" },
+      {
+        type: "ul",
+        items: [
+          "¿Cuánto cuestan sus servicios?",
+          "¿Dónde están ubicados?",
+          "¿Qué servicios ofrecen?",
+          "¿Cuál es el horario?",
+          "¿Cómo puedo reservar?",
+          "¿Tienen algún catálogo?",
+        ],
+      },
+      {
+        type: "p",
+        text: "Una página web puede responder automáticamente muchas de estas preguntas — como ya hacemos en nuestras [preguntas frecuentes](/preguntas-frecuentes) — y permitir que el cliente encuentre la información sin tener que escribirte primero.",
+      },
+      { type: "h2", text: "2. Dependes completamente de tus redes sociales" },
+      {
+        type: "p",
+        text: "Las redes sociales son excelentes para atraer personas, pero tienen una desventaja: no tenés el mismo control sobre ellas que sobre una página web.",
+      },
+      {
+        type: "p",
+        text: "Los algoritmos cambian, las publicaciones dejan de mostrarse y una persona puede entrar a tu perfil y no encontrar rápidamente lo que está buscando.",
+      },
+      { type: "p", text: "Una página web funciona como un espacio propio donde podés organizar toda la información de tu negocio." },
+      { type: "h2", text: "3. Los clientes no encuentran tu negocio fácilmente en Google" },
+      { type: "p", text: "Imaginá que alguien busca:" },
+      {
+        type: "ul",
+        items: ["[\"barbería cerca de mí\"](/paginas-web-para/barberias)", "**\"diseñador gráfico en Bogotá\"**"],
+      },
+      {
+        type: "p",
+        text: "Si tu negocio no tiene una presencia web bien estructurada, estás dejando pasar oportunidades de personas que ya están buscando lo que vendés.",
+      },
+      {
+        type: "p",
+        text: "Una página web optimizada para SEO puede ayudarte a aparecer en los resultados de búsqueda y atraer personas que todavía no conocen tu negocio.",
+      },
+      { type: "h2", text: "4. Tu competencia aparece antes que tú" },
+      { type: "p", text: "Este es uno de los puntos más importantes." },
+      { type: "p", text: "Si un cliente busca un servicio y encuentra primero a tu competencia, esa empresa tiene una ventaja." },
+      { type: "p", text: "No necesariamente significa que sea mejor que tu negocio. Simplemente puede estar mejor posicionada en Internet." },
+      {
+        type: "p",
+        text: "Una buena estrategia digital permite que tu negocio tenga más posibilidades de aparecer cuando tus clientes potenciales están buscando lo que ofrecés.",
+      },
+      { type: "h2", text: "5. Tu negocio parece menos profesional de lo que realmente es" },
+      { type: "p", text: "Podés tener excelentes productos, buenos precios y un servicio increíble." },
+      {
+        type: "p",
+        text: "Pero si cuando alguien busca tu negocio solamente encuentra un perfil de redes sociales desactualizado o información incompleta, la percepción puede ser diferente.",
+      },
+      {
+        type: "p",
+        text: "Una página web profesional — como los ejemplos de nuestro [portafolio](/portafolio) — puede ayudarte a mostrar:",
+      },
+      {
+        type: "ul",
+        items: [
+          "Quién sos.",
+          "Qué hacés.",
+          "Tus servicios o productos.",
+          "Fotografías de tu trabajo.",
+          "Testimonios.",
+          "Ubicación.",
+          "Formas de contacto.",
+          "Botón directo a WhatsApp.",
+        ],
+      },
+      { type: "p", text: "Todo en un solo lugar." },
+      { type: "h2", text: "6. Pierdes clientes fuera del horario de atención" },
+      { type: "p", text: "Tu negocio puede cerrar a las 7:00 p. m., pero Internet nunca cierra." },
+      { type: "p", text: "Una persona puede descubrir tu negocio a las 10:00 p. m. y querer saber qué servicios ofrecés o cuánto cuesta algo." },
+      { type: "p", text: "Si tenés una página web, esa persona puede encontrar la información incluso cuando no estás disponible para responder." },
+      { type: "h2", text: "7. No tenés un lugar propio para presentar tu negocio" },
+      { type: "p", text: "Instagram, Facebook y TikTok son plataformas excelentes, pero son plataformas de terceros." },
+      { type: "p", text: "Tu página web es diferente." },
+      { type: "p", text: "Es un espacio digital propio que podés utilizar como centro de toda tu estrategia:" },
+      { type: "p", text: "**Redes sociales → Página web → WhatsApp → Cliente**" },
+      { type: "p", text: "De esta manera, tus redes no tienen que hacer todo el trabajo." },
+      { type: "h2", text: "Entonces, ¿realmente necesitás una página web?" },
+      {
+        type: "p",
+        text: "No todos los negocios necesitan una página web enorme ni una plataforma complicada.",
+      },
+      {
+        type: "p",
+        text: "Pero si tu negocio quiere crecer, conseguir clientes desde Google, mostrar sus servicios de forma profesional y tener una presencia digital que no dependa únicamente de las redes sociales, una página web puede convertirse en una herramienta importante.",
+      },
+      { type: "p", text: "La pregunta no debería ser solamente:" },
+      { type: "p", text: "**\"¿Necesito una página web?\"**" },
+      { type: "p", text: "Sino:" },
+      { type: "p", text: "**\"¿Cuántos clientes podría estar perdiendo porque todavía no tengo una?\"**" },
+      { type: "h2", text: "Conclusión" },
+      { type: "p", text: "Una página web no garantiza clientes por sí sola." },
+      {
+        type: "p",
+        text: "Pero una página bien estructurada, optimizada para buscadores y conectada con tus redes sociales y canales de contacto puede convertirse en una parte importante de tu estrategia digital.",
+      },
+      {
+        type: "p",
+        text: "Si tu negocio ya está creciendo y tus clientes te están buscando en Internet, probablemente sea momento de dejar de depender únicamente de las redes sociales.",
+      },
+      {
+        type: "p",
+        text: "**Tu negocio puede estar perdiendo clientes que ya están buscando exactamente lo que vos ofrecés.**",
+      },
+    ],
+  },
 ];
 
 export function getArticulo(slug: string): Articulo | undefined {
