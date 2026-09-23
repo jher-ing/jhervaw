@@ -44,6 +44,16 @@ const securityHeaders = [
 
 const nextConfig: NextConfig = {
   poweredByHeader: false,
+  // Demos estáticos en public/demos/<nombre>/: la URL corta abre su index.html
+  async redirects() {
+    return [
+      {
+        source: "/demos/:demo",
+        destination: "/demos/:demo/index.html",
+        permanent: false,
+      },
+    ];
+  },
   async headers() {
     return [
       {
