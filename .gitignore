@@ -40,13 +40,5 @@ yarn-error.log*
 *.tsbuildinfo
 next-env.d.ts
 
-# documentos internos (estrategia/negocio, no van al repo público)
-Estrategia-SEO.html
-Estrategia-Redes-Sociales.html
-Estrategia-Ventas.html
-Plan-Diario-Ventas.html
-Plan-Diario-SEO.html
-Plan-Accion.html
-Contrato-Jherva.html
-Auditoria-Adquisicion.html
-Seguimiento-Prospectos.html
+# documentos internos (estrategia/negocio/estándares, no van al repo público)
+/Documentos internos/
