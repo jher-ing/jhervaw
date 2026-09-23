@@ -23,7 +23,7 @@ export async function generateMetadata({
   const articulo = getArticulo(slug);
   if (!articulo) return {};
   return pageMetadata({
-    title: articulo.title,
+    title: articulo.metaTitle ?? articulo.title,
     description: articulo.metaDescription,
     path: `/blog/${articulo.slug}`,
   });

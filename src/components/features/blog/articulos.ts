@@ -17,6 +17,8 @@ export type ContentBlock =
 export interface Articulo {
   slug: string;
   title: string;
+  /** Título de pestaña/SEO cuando difiere del H1 (p. ej. más orientado a keyword). Si no se define, se usa `title`. */
+  metaTitle?: string;
   metaDescription: string;
   excerpt: string;
   publishedAt: string;
@@ -782,6 +784,140 @@ export const articulos: Articulo[] = [
       {
         type: "p",
         text: "Si estás pensando en crear una página web para tu negocio y querés conocer cómo trabajamos ese proceso en Jherva, podés conocer nuestro [proceso de trabajo](/proceso).",
+      },
+    ],
+  },
+  {
+    slug: "el-estandar-que-aplicamos-a-cada-pagina-web",
+    title: "El estándar que aplicamos a cada página web que desarrollamos",
+    metaTitle: "Desarrollo de páginas web profesionales",
+    metaDescription:
+      "Conocé los estándares de JHERVA para desarrollar páginas web profesionales: rendimiento, seguridad, accesibilidad y SEO técnico.",
+    excerpt:
+      "El mismo estándar de rendimiento, seguridad, accesibilidad y SEO técnico que le exigimos a nuestros clientes, aplicado también a nuestra propia página.",
+    publishedAt: "2026-09-22",
+    content: [
+      { type: "p", text: "Cualquiera puede decir que crea páginas web de calidad." },
+      { type: "p", text: "Pocos pueden demostrar que aplican ese mismo estándar a su propio sitio web." },
+      {
+        type: "p",
+        text: "En JHERVA, cada página web que desarrollamos se construye bajo criterios concretos de rendimiento, seguridad, accesibilidad y SEO técnico.",
+      },
+      { type: "p", text: "Y no hacemos una excepción con nuestra propia página." },
+      { type: "p", text: "El estándar que aplicamos a nuestros clientes es el mismo que nos exigimos a nosotros." },
+      { type: "p", text: "A continuación te mostramos qué significa esto en la práctica." },
+
+      { type: "h2", text: "Seguridad web" },
+      { type: "p", text: "La seguridad empieza desde la forma en que se construye un sitio web." },
+      {
+        type: "p",
+        text: "Cuando un proyecto no necesita una base de datos, sistemas de usuarios o funcionalidades complejas, no tiene sentido añadir componentes innecesarios que aumenten su superficie de exposición.",
+      },
+      { type: "p", text: "Por eso, en JHERVA analizamos las necesidades reales de cada proyecto antes de elegir su arquitectura." },
+      {
+        type: "p",
+        text: "Nuestra propia página, por ejemplo, no utiliza una base de datos ni formularios que almacenen información sensible. Funciona mediante HTTPS y evitamos dependencias de terceros que no aporten un beneficio real al proyecto.",
+      },
+      { type: "p", text: "El objetivo no es añadir tecnología por añadirla." },
+      { type: "p", text: "Es utilizar únicamente la que el proyecto necesita." },
+
+      { type: "h2", text: "Rendimiento web" },
+      { type: "p", text: "Una página web profesional no solo tiene que verse bien. También tiene que cargar rápido y responder correctamente." },
+      { type: "p", text: "Evitamos plantillas pesadas, código innecesario y recursos que puedan afectar el rendimiento del sitio." },
+      { type: "p", text: "Además, optimizamos los recursos utilizados por cada proyecto, incluyendo imágenes, scripts y estilos." },
+      { type: "p", text: "Pero no nos quedamos en \"se siente rápida\"." },
+      { type: "p", text: "Lo medimos." },
+      { type: "p", text: "En JHERVA utilizamos objetivos mínimos de rendimiento como referencia:" },
+      {
+        type: "ul",
+        items: ["Lighthouse Performance: ≥ 90", "LCP: ≤ 2,5 segundos", "INP: ≤ 200 ms"],
+      },
+      {
+        type: "p",
+        text: "Estas métricas nos permiten evaluar el rendimiento utilizando criterios medibles en lugar de depender únicamente de una impresión visual.",
+      },
+      { type: "p", text: "Porque cuando una persona entra a una página web, cada segundo de espera puede convertirse en una oportunidad perdida." },
+
+      { type: "h2", text: "Diseño web accesible" },
+      { type: "p", text: "Un buen diseño web no consiste únicamente en que la página se vea bien." },
+      { type: "p", text: "También debe ser clara, navegable y usable." },
+      { type: "p", text: "Por eso comprobamos el comportamiento de cada sitio en diferentes tamaños de pantalla y prestamos atención a aspectos como:" },
+      {
+        type: "ul",
+        items: [
+          "Textos alternativos para imágenes.",
+          "Contraste adecuado.",
+          "Jerarquía correcta de encabezados.",
+          "Navegación mediante teclado.",
+          "Elementos interactivos claramente identificables.",
+          "Adaptación a dispositivos móviles.",
+        ],
+      },
+      {
+        type: "p",
+        text: "Como referencia utilizamos las buenas prácticas de WCAG 2.1 AA y buscamos mantener una puntuación de Lighthouse Accessibility de 95 o superior.",
+      },
+      { type: "p", text: "La accesibilidad no es un adorno técnico." },
+      { type: "p", text: "Es parte de construir una página web que pueda ser utilizada por más personas." },
+
+      { type: "h2", text: "SEO técnico" },
+      { type: "p", text: "Tener una página web no significa automáticamente aparecer en Google." },
+      { type: "p", text: "Por eso, el SEO técnico forma parte de nuestra forma de desarrollar sitios web desde el inicio." },
+      {
+        type: "p",
+        text: "Cada proyecto se estructura teniendo en cuenta elementos fundamentales para que los motores de búsqueda puedan comprender y rastrear correctamente el contenido.",
+      },
+      { type: "p", text: "Esto incluye, según las necesidades del proyecto:" },
+      {
+        type: "ul",
+        items: [
+          "Títulos y meta descripciones.",
+          "Estructura correcta de encabezados.",
+          "URLs claras.",
+          "Etiquetas alt en imágenes.",
+          "Sitemap.",
+          "robots.txt.",
+          "Datos estructurados cuando son relevantes.",
+          "Enlaces internos.",
+          "Diseño responsive.",
+          "Buen rendimiento y experiencia de usuario.",
+        ],
+      },
+      {
+        type: "p",
+        text: "Nuestro objetivo de referencia es alcanzar Lighthouse SEO de 100, siempre que las características del proyecto permitan evaluarlo bajo esos criterios.",
+      },
+      { type: "p", text: "Y algo importante:" },
+      { type: "p", text: "**El SEO técnico no sustituye una estrategia de contenidos ni garantiza posiciones concretas en Google.**" },
+      {
+        type: "p",
+        text: "Lo que hacemos es entregar una base técnica correctamente preparada para que el sitio pueda ser rastreado, comprendido y trabajado posteriormente.",
+      },
+
+      { type: "h2", text: "¿Por qué estos estándares no son negociables?" },
+      {
+        type: "p",
+        text: "Podríamos crear una versión más sencilla de una página web, eliminar optimizaciones y reducir el tiempo dedicado a determinados aspectos.",
+      },
+      { type: "p", text: "Pero ese no es el estándar con el que queremos trabajar." },
+      { type: "p", text: "Una página web profesional representa a un negocio." },
+      {
+        type: "p",
+        text: "Por eso preferimos construirla correctamente desde el principio, en lugar de solucionar después problemas que podían haberse evitado durante el desarrollo.",
+      },
+      { type: "p", text: "No le exigimos a un proyecto de cliente nada que no nos exijamos primero a nosotros mismos." },
+      { type: "p", text: "Nuestra propia página web es parte de ese compromiso." },
+
+      { type: "h2", text: "Calidad que se puede comprobar" },
+      { type: "p", text: "No queremos que confíes únicamente en lo que decimos." },
+      { type: "p", text: "Queremos que puedas comprobarlo." },
+      {
+        type: "p",
+        text: "En nuestra sección de [estándares](/estandares) podés consultar los criterios técnicos que utilizamos y las herramientas con las que evaluamos nuestros proyectos.",
+      },
+      {
+        type: "p",
+        text: "Y si estás buscando una página web profesional para tu negocio, podés conocer nuestro [proceso](/proceso), [portafolio](/portafolio) y [precios](/precios).",
       },
     ],
   },
