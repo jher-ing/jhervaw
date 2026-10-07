@@ -29,7 +29,8 @@ export function Header() {
         <Logo className="shrink-0" />
 
         <nav aria-label="Navegación principal" className="hidden shrink-0 items-center gap-1 lg:flex">
-          {siteConfig.nav.map((item) => {
+          {/* "Inicio" sobra en escritorio: el logo ya lleva a la portada. */}
+          {siteConfig.nav.filter((item) => item.href !== "/").map((item) => {
             const active = pathname === item.href;
             return (
               <Link
