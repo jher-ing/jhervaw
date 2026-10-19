@@ -109,7 +109,7 @@ export default function PreciosPage() {
             Cliente fundador
           </p>
           <p className="text-xl font-semibold text-balance sm:text-2xl">
-            30% de descuento en tu proyecto, cupo limitado a los primeros 3
+            15% de descuento en tu proyecto, cupo limitado a los primeros 3
           </p>
           <p className="max-w-xl text-sm text-text-secondary text-pretty">
             Por ejemplo: una página profesional de $1.000.000 queda en $850.000. Una landing de
