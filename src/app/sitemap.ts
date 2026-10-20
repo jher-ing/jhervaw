@@ -18,6 +18,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
     "/precios",
     "/blog",
     "/contacto",
+    "/privacidad",
   ];
 
   const portafolioRoutes = niches.map((n) => n.href);

@@ -79,7 +79,12 @@ export function Footer() {
         </div>
 
         <div className="flex flex-col items-start justify-between gap-4 border-t border-border pt-6 text-xs text-text-muted sm:flex-row sm:items-center">
-          <p>© {year} Jherva. Todos los derechos reservados.</p>
+          <p>
+            © {year} Jherva. Todos los derechos reservados. ·{" "}
+            <Link href="/privacidad" className="underline-offset-4 hover:text-text-primary hover:underline">
+              Política de privacidad
+            </Link>
+          </p>
           <p>Diseñado y desarrollado siguiendo el Jherva Engineering Standard.</p>
         </div>
       </div>

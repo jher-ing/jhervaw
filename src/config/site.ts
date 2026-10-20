@@ -6,7 +6,9 @@ export const siteConfig = {
   tagline: "Estudio de desarrollo web y producto digital",
   description:
     "Jherva diseña y construye sitios web, landing pages y productos digitales para negocios en Colombia — diseño moderno, rigor técnico y estrategia de conversión.",
-  url: "https://jherva.com",
+  // Con www: es el dominio principal en Vercel (jherva.com redirige aquí). La canonical, el sitemap y
+  // los datos estructurados deben apuntar a la misma dirección que sirve la página.
+  url: "https://www.jherva.com",
   locale: "es",
   ogImage: {
     url: "/og.jpg",
