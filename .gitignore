@@ -42,3 +42,7 @@ next-env.d.ts
 
 # documentos internos (estrategia/negocio/estándares, no van al repo público)
 /Documentos internos/
+
+# material de trabajo local (demos de prospectos y zips): nunca al repo público
+/demos/
+/zip/
