@@ -181,7 +181,7 @@ export default function PrivacidadPage() {
         <P>
           Para funcionar usamos proveedores que pueden almacenar o procesar datos en servidores fuera de Colombia,
           principalmente en Estados Unidos: Vercel (alojamiento del sitio y estadísticas de visitas), Supabase (sistema
-          de gestión de clientes), Google (Search Console, Analytics y correo) y WhatsApp de Meta (mensajería). Estos
+          de gestión de clientes), Google (Search Console y correo) y WhatsApp de Meta (mensajería). Estos
           proveedores cuentan con medidas de seguridad acordes con estándares internacionales.
         </P>
 
