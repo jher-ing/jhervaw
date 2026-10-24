@@ -152,7 +152,7 @@ export const nichosServicio: ServicioNicho[] = [
     icon: Dumbbell,
     h1: "Páginas web para gimnasios y entrenadores personales",
     metaDescription:
-      "Páginas web para gimnasios y entrenadores personales en Colombia: aparecé en Google, mostrá tus planes y recibí inscripciones sin fricción.",
+      "Páginas web para gimnasios y entrenadores personales en Colombia: aparece en Google, muestra tus planes y recibe inscripciones sin fricción.",
     painPoint:
       "La gente busca 'gimnasio cerca' en Google antes de ir — si no apareces ahí, ni siquiera llegan a preguntar el precio.",
     benefits: [
@@ -185,7 +185,7 @@ export const nichosServicio: ServicioNicho[] = [
     painPoint:
       "Antes de agendar un tratamiento, la gente investiga — y si todo lo que encuentra es un perfil de Instagram sin información clara, elige a la competencia que sí tiene web.",
     benefits: [
-      "Explicá cada tratamiento con claridad, sin depender de un carrusel viejo",
+      "Explica cada tratamiento con claridad, sin depender de un carrusel viejo",
       "Agenda de citas simple, sin ida y vuelta por chat",
       "Fotos de antes/después organizadas y presentadas con profesionalismo",
       "Una web genera más confianza que solo una cuenta de Instagram para decidir un tratamiento",

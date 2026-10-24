@@ -304,7 +304,7 @@ export const articulos: Articulo[] = [
       },
       { type: "p", text: "Una página web funciona como un espacio propio donde puedes organizar toda la información de tu negocio." },
       { type: "h2", text: "3. Los clientes no encuentran tu negocio fácilmente en Google" },
-      { type: "p", text: "Imaginá que alguien busca:" },
+      { type: "p", text: "Imagina que alguien busca:" },
       {
         type: "ul",
         items: ["[\"barbería cerca de mí\"](/paginas-web-para/barberias)", "**\"diseñador gráfico en Bogotá\"**"],
@@ -472,7 +472,7 @@ export const articulos: Articulo[] = [
         text: "Si alguien puede empezar tu página sin saber prácticamente nada sobre tu negocio, probablemente está usando una solución genérica.",
       },
 
-      { type: "h2", text: "4. Preguntá qué incluye realmente el proyecto" },
+      { type: "h2", text: "4. Pregunta qué incluye realmente el proyecto" },
       { type: "p", text: "Una de las cosas que más problemas puede evitar es tener claro qué estás comprando." },
       { type: "p", text: "Una propuesta debería dejar claro, por ejemplo:" },
       {
@@ -499,7 +499,7 @@ export const articulos: Articulo[] = [
         text: "Mientras más claro esté desde el principio, menos posibilidades habrá de tener malentendidos después. Nosotros dejamos esto explícito en nuestra propia [página de precios](/precios) — qué incluye cada tarifa, sin letra chiquita.",
       },
 
-      { type: "h2", text: "5. Desconfiá tanto de lo demasiado barato como de lo exageradamente caro" },
+      { type: "h2", text: "5. Desconfía tanto de lo demasiado barato como de lo exageradamente caro" },
       { type: "p", text: "El precio por sí solo no determina si una página web es buena o mala." },
       { type: "p", text: "Una página sencilla puede costar menos que una tienda online con sistemas personalizados." },
       { type: "p", text: "Por eso, comparar solamente números puede ser engañoso." },
@@ -512,7 +512,7 @@ export const articulos: Articulo[] = [
       { type: "p", text: "Lo importante es entender qué estás pagando y qué problema va a solucionar el proyecto." },
       { type: "p", text: "No busques simplemente:" },
       { type: "p", text: "**\"La página más barata.\"**" },
-      { type: "p", text: "Buscá:" },
+      { type: "p", text: "Busca:" },
       { type: "p", text: "**\"La solución que realmente necesita mi negocio.\"**" },
 
       { type: "h2", text: "6. La comunicación también forma parte del servicio" },
@@ -567,7 +567,7 @@ export const articulos: Articulo[] = [
 
       { type: "h2", text: "Entonces, ¿cómo sabes si estás trabajando con un profesional?" },
       { type: "p", text: "No necesitas saber programar para darte cuenta." },
-      { type: "p", text: "Simplemente observá si la persona:" },
+      { type: "p", text: "Simplemente observa si la persona:" },
       {
         type: "ul",
         items: [
@@ -625,7 +625,7 @@ export const articulos: Articulo[] = [
         type: "p",
         text: "Tu página web forma parte de los activos digitales de tu negocio. Por eso es importante saber quién tendrá el control del dominio, dónde estará alojada la página y qué acceso vas a tener cuando el proyecto esté terminado.",
       },
-      { type: "p", text: "Preguntá directamente:" },
+      { type: "p", text: "Pregunta directamente:" },
       { type: "p", text: "**¿El dominio queda registrado a nombre de mi negocio?**" },
       { type: "p", text: "**¿Voy a tener acceso al hosting?**" },
       { type: "p", text: "**¿Voy a recibir los accesos necesarios cuando termine el proyecto?**" },
@@ -680,7 +680,7 @@ export const articulos: Articulo[] = [
       { type: "p", text: "Antes de comenzar también deberías entender exactamente cómo se va a pagar el proyecto." },
       { type: "p", text: "No solamente preguntes:" },
       { type: "p", text: "**¿Cuánto cuesta?**" },
-      { type: "p", text: "Preguntá también:" },
+      { type: "p", text: "Pregunta también:" },
       { type: "p", text: "**¿Cuánto debo pagar inicialmente?**" },
       { type: "p", text: "**¿Cuándo se paga el resto?**" },
       { type: "p", text: "**¿Qué incluye cada etapa?**" },
@@ -698,7 +698,7 @@ export const articulos: Articulo[] = [
       { type: "p", text: "Esta pregunta parece básica, pero sigue siendo fundamental." },
       { type: "p", text: "Tu página no debería estar pensada únicamente para verse bien en un computador." },
       { type: "p", text: "Una persona puede entrar desde un celular mientras está buscando tu negocio, revisando tus servicios o intentando contactarte." },
-      { type: "p", text: "Por eso preguntá:" },
+      { type: "p", text: "Por eso pregunta:" },
       { type: "p", text: "**¿La página será responsive?**" },
       { type: "p", text: "**¿Cómo se verá en celulares y tablets?**" },
       { type: "p", text: "**¿Se probará en diferentes tamaños de pantalla?**" },
@@ -716,7 +716,7 @@ export const articulos: Articulo[] = [
 
       { type: "h2", text: "7. ¿La página tendrá una configuración básica de SEO?" },
       { type: "p", text: "No hace falta convertir esta pregunta en una clase de posicionamiento web." },
-      { type: "p", text: "Simplemente preguntá qué aspectos básicos de SEO se van a tener en cuenta durante el desarrollo." },
+      { type: "p", text: "Simplemente pregunta qué aspectos básicos de SEO se van a tener en cuenta durante el desarrollo." },
       { type: "p", text: "Por ejemplo:" },
       {
         type: "ul",
@@ -774,9 +774,9 @@ export const articulos: Articulo[] = [
       { type: "p", text: "Necesitas hacer las preguntas correctas." },
       {
         type: "p",
-        text: "Preguntá quién tendrá el control del dominio y del hosting. Preguntá qué ocurre después de la entrega. Preguntá cómo se manejarán los cambios. Preguntá qué incluye el precio y cómo se realizará el pago.",
+        text: "Pregunta quién tendrá el control del dominio y del hosting. Pregunta qué ocurre después de la entrega. Pregunta cómo se manejarán los cambios. Pregunta qué incluye el precio y cómo se realizará el pago.",
       },
-      { type: "p", text: "Y preguntá cómo se piensa trabajar aspectos como velocidad, seguridad, SEO y adaptación a celulares." },
+      { type: "p", text: "Y pregunta cómo se piensa trabajar aspectos como velocidad, seguridad, SEO y adaptación a celulares." },
       { type: "p", text: "Un profesional no debería molestarse porque hagas estas preguntas." },
       { type: "p", text: "Debería estar preparado para responderlas." },
       { type: "p", text: "Porque una página web no debería ser simplemente algo que alguien te entrega y desaparece." },
@@ -792,7 +792,7 @@ export const articulos: Articulo[] = [
     title: "El estándar que aplicamos a cada página web que desarrollamos",
     metaTitle: "Desarrollo de páginas web profesionales",
     metaDescription:
-      "Conocé los estándares de JHERVA para desarrollar páginas web profesionales: rendimiento, seguridad, accesibilidad y SEO técnico.",
+      "Conoce los estándares de JHERVA para desarrollar páginas web profesionales: rendimiento, seguridad, accesibilidad y SEO técnico.",
     excerpt:
       "El mismo estándar de rendimiento, seguridad, accesibilidad y SEO técnico que le exigimos a nuestros clientes, aplicado también a nuestra propia página.",
     publishedAt: "2026-09-22",
