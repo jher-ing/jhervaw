@@ -46,29 +46,29 @@ export const articulos: Articulo[] = [
       },
       { type: "p", text: "El problema no es tener redes sociales." },
       { type: "p", text: "El problema es **depender únicamente de ellas**." },
-      { type: "h2", text: "Tus redes están dentro de una plataforma que no controlás" },
+      { type: "h2", text: "Tus redes están dentro de una plataforma que no controlas" },
       {
         type: "p",
-        text: "Cuando construís la presencia digital de tu negocio en Instagram o TikTok, estás utilizando plataformas que pertenecen a otras empresas.",
+        text: "Cuando construyes la presencia digital de tu negocio en Instagram o TikTok, estás utilizando plataformas que pertenecen a otras empresas.",
       },
       { type: "p", text: "Eso significa que las reglas, el alcance, los formatos y los algoritmos pueden cambiar." },
       {
         type: "p",
-        text: "Un contenido que hoy funciona muy bien puede tener mucho menos alcance mañana. Una cuenta puede sufrir una restricción o perder visibilidad. Y si dependés exclusivamente de una plataforma para conseguir clientes, cualquier cambio puede terminar afectando tu negocio.",
+        text: "Un contenido que hoy funciona muy bien puede tener mucho menos alcance mañana. Una cuenta puede sufrir una restricción o perder visibilidad. Y si dependes exclusivamente de una plataforma para conseguir clientes, cualquier cambio puede terminar afectando tu negocio.",
       },
       { type: "p", text: "Una página web funciona de otra manera." },
       {
         type: "p",
-        text: "Es un espacio propio de tu negocio. Vos decidís qué información mostrar, cómo organizarla y qué acción querés que realice el visitante.",
+        text: "Es un espacio propio de tu negocio. Tú decides qué información mostrar, cómo organizarla y qué acción quieres que realice el visitante.",
       },
       { type: "p", text: "No significa que las redes sean malas. **Significa que no deberían ser tu único activo digital.**" },
       { type: "h2", text: "3 cosas que una página web puede aportar a tu negocio" },
       { type: "h3", text: "1. Un lugar propio para presentar tu negocio" },
-      { type: "p", text: "En redes sociales tenés que adaptarte al formato de la plataforma." },
-      { type: "p", text: "En una web podés estructurar la información pensando específicamente en tu cliente." },
+      { type: "p", text: "En redes sociales tienes que adaptarte al formato de la plataforma." },
+      { type: "p", text: "En una web puedes estructurar la información pensando específicamente en tu cliente." },
       {
         type: "p",
-        text: "Podés explicar tus servicios, mostrar trabajos anteriores, responder [preguntas frecuentes](/preguntas-frecuentes), incluir testimonios, agregar ubicación, horarios y dirigir al visitante hacia WhatsApp, una reserva o una compra.",
+        text: "Puedes explicar tus servicios, mostrar trabajos anteriores, responder [preguntas frecuentes](/preguntas-frecuentes), incluir testimonios, agregar ubicación, horarios y dirigir al visitante hacia WhatsApp, una reserva o una compra.",
       },
       { type: "p", text: "La página no tiene que simplemente verse bonita." },
       { type: "p", text: "**Tiene que tener un propósito.**" },
@@ -92,17 +92,17 @@ export const articulos: Articulo[] = [
       },
       { type: "p", text: "Por eso una web no debería crearse solamente para que alguien entre directamente a ella." },
       { type: "p", text: "También debería estar preparada para **ser encontrada**." },
-      { type: "h3", text: "3. Podés convertir mejor el tráfico que ya tenés" },
+      { type: "h3", text: "3. Puedes convertir mejor el tráfico que ya tienes" },
       { type: "p", text: "Esta es una de las diferencias que más me interesan cuando diseño una web." },
       { type: "p", text: "Supongamos que alguien descubre tu negocio en Instagram." },
       { type: "p", text: "Le gusta lo que ve y quiere saber más." },
-      { type: "p", text: "Podés simplemente decirle \"escribinos por DM\"." },
-      { type: "p", text: "O podés llevarlo a una página donde encuentre rápidamente:" },
+      { type: "p", text: "Puedes simplemente decirle \"escríbenos por DM\"." },
+      { type: "p", text: "O puedes llevarlo a una página donde encuentre rápidamente:" },
       {
         type: "ul",
         items: [
           "Qué hace tu negocio.",
-          "Qué servicios ofrecés.",
+          "Qué servicios ofreces.",
           "Cuánto puede esperar.",
           "Dónde estás.",
           "Qué dicen otros clientes.",
@@ -119,7 +119,7 @@ export const articulos: Articulo[] = [
       { type: "p", text: "Las redes pueden ayudarte a generar descubrimiento y confianza." },
       {
         type: "p",
-        text: "La página web puede funcionar como el lugar al que llevás a las personas cuando quieren conocer más sobre tu negocio.",
+        text: "La página web puede funcionar como el lugar al que llevas a las personas cuando quieren conocer más sobre tu negocio.",
       },
       { type: "p", text: "Pensalo así:" },
       {
@@ -135,10 +135,10 @@ export const articulos: Articulo[] = [
         type: "p",
         text: "Si tu negocio está empezando, todavía estás validando la idea y tu presupuesto es prácticamente cero, comenzar con Instagram, TikTok o Facebook puede tener mucho sentido.",
       },
-      { type: "p", text: "Primero necesitás comprobar que existe demanda." },
+      { type: "p", text: "Primero necesitas comprobar que existe demanda." },
       {
         type: "p",
-        text: "Pero cuando ya tenés clientes, servicios definidos y querés construir una presencia digital más profesional, empieza a tener sentido crear un espacio propio.",
+        text: "Pero cuando ya tienes clientes, servicios definidos y quieres construir una presencia digital más profesional, empieza a tener sentido crear un espacio propio.",
       },
       { type: "p", text: "No porque una página web vaya a solucionar automáticamente todos tus problemas." },
       {
@@ -151,7 +151,7 @@ export const articulos: Articulo[] = [
       { type: "p", text: "Al contrario." },
       {
         type: "p",
-        text: "Podés utilizar tus redes para atraer personas y tu página web para darles un lugar donde conocer mejor tu negocio y tomar una acción.",
+        text: "Puedes utilizar tus redes para atraer personas y tu página web para darles un lugar donde conocer mejor tu negocio y tomar una acción.",
       },
       { type: "p", text: "La pregunta no debería ser:" },
       { type: "p", text: "**\"¿Necesito una web si ya tengo Instagram?\"**" },
@@ -159,11 +159,11 @@ export const articulos: Articulo[] = [
       { type: "p", text: "**\"¿Cómo puedo hacer que mi web y mis redes trabajen juntas?\"**" },
       {
         type: "p",
-        text: "Si tu negocio ya tiene presencia en redes pero todavía no tiene una página web, no necesariamente significa que la necesitás mañana.",
+        text: "Si tu negocio ya tiene presencia en redes pero todavía no tiene una página web, no necesariamente significa que la necesitas mañana.",
       },
       {
         type: "p",
-        text: "Pero sí vale la pena preguntarte si estás construyendo un activo digital propio o si todo tu crecimiento depende de una plataforma que no controlás.",
+        text: "Pero sí vale la pena preguntarte si estás construyendo un activo digital propio o si todo tu crecimiento depende de una plataforma que no controlas.",
       },
     ],
   },
@@ -220,8 +220,8 @@ export const articulos: Articulo[] = [
         type: "ul",
         items: [
           "Tus clientes preguntan constantemente cosas que podrían estar explicadas en un solo lugar: precios, servicios, horarios, ubicación, reservas o cómo comprar.",
-          "Querés que personas que todavía no te conocen te encuentren a través de Google.",
-          "Querés transmitir una imagen más profesional y tener un espacio propio para presentar lo que hacés.",
+          "Quieres que personas que todavía no te conocen te encuentren a través de Google.",
+          "Quieres transmitir una imagen más profesional y tener un espacio propio para presentar lo que haces.",
         ],
       },
       { type: "h2", text: "¿Compiten Instagram y la web?" },
@@ -245,12 +245,12 @@ export const articulos: Articulo[] = [
       },
       {
         type: "p",
-        text: "Pero si constantemente respondés las mismas preguntas por mensaje, o querés captar personas que buscan tu servicio en Google, una web puede complementar muy bien lo que ya tenés.",
+        text: "Pero si constantemente respondes las mismas preguntas por mensaje, o quieres captar personas que buscan tu servicio en Google, una web puede complementar muy bien lo que ya tienes.",
       },
       { type: "h2", text: "La pregunta correcta" },
       {
         type: "p",
-        text: "No se trata de elegir entre Instagram o una página web. Cada uno cumple una función diferente. Instagram te ayuda a llamar la atención, mostrar lo que hacés y conectar con personas. La web te ayuda a organizar la información, generar confianza y facilitar que un interesado dé el siguiente paso.",
+        text: "No se trata de elegir entre Instagram o una página web. Cada uno cumple una función diferente. Instagram te ayuda a llamar la atención, mostrar lo que haces y conectar con personas. La web te ayuda a organizar la información, generar confianza y facilitar que un interesado dé el siguiente paso.",
       },
       {
         type: "p",
@@ -262,7 +262,7 @@ export const articulos: Articulo[] = [
     slug: "senales-que-pierdes-clientes-sin-pagina-web",
     title: "Señales de que tu negocio está perdiendo clientes por no tener página web",
     metaDescription:
-      "7 señales de que tu negocio está perdiendo clientes por no tener página web propia, y qué hacer si reconocés dos o tres en el tuyo.",
+      "7 señales de que tu negocio está perdiendo clientes por no tener página web propia, y qué hacer si reconoces dos o tres en el tuyo.",
     excerpt:
       "Si tu negocio depende solo de redes sociales, podrías estar perdiendo clientes sin darte cuenta. Estas son las señales para reconocerlo.",
     publishedAt: "2026-08-17",
@@ -277,7 +277,7 @@ export const articulos: Articulo[] = [
       },
       { type: "p", text: "Estas son algunas señales de que tu negocio necesita una página web." },
       { type: "h2", text: "1. Tus clientes siempre te preguntan lo mismo" },
-      { type: "p", text: "Si constantemente recibís preguntas como:" },
+      { type: "p", text: "Si constantemente recibes preguntas como:" },
       {
         type: "ul",
         items: [
@@ -296,13 +296,13 @@ export const articulos: Articulo[] = [
       { type: "h2", text: "2. Dependes completamente de tus redes sociales" },
       {
         type: "p",
-        text: "Las redes sociales son excelentes para atraer personas, pero tienen una desventaja: no tenés el mismo control sobre ellas que sobre una página web.",
+        text: "Las redes sociales son excelentes para atraer personas, pero tienen una desventaja: no tienes el mismo control sobre ellas que sobre una página web.",
       },
       {
         type: "p",
         text: "Los algoritmos cambian, las publicaciones dejan de mostrarse y una persona puede entrar a tu perfil y no encontrar rápidamente lo que está buscando.",
       },
-      { type: "p", text: "Una página web funciona como un espacio propio donde podés organizar toda la información de tu negocio." },
+      { type: "p", text: "Una página web funciona como un espacio propio donde puedes organizar toda la información de tu negocio." },
       { type: "h2", text: "3. Los clientes no encuentran tu negocio fácilmente en Google" },
       { type: "p", text: "Imaginá que alguien busca:" },
       {
@@ -311,7 +311,7 @@ export const articulos: Articulo[] = [
       },
       {
         type: "p",
-        text: "Si tu negocio no tiene una presencia web bien estructurada, estás dejando pasar oportunidades de personas que ya están buscando lo que vendés.",
+        text: "Si tu negocio no tiene una presencia web bien estructurada, estás dejando pasar oportunidades de personas que ya están buscando lo que vendes.",
       },
       {
         type: "p",
@@ -323,10 +323,10 @@ export const articulos: Articulo[] = [
       { type: "p", text: "No necesariamente significa que sea mejor que tu negocio. Simplemente puede estar mejor posicionada en Internet." },
       {
         type: "p",
-        text: "Una buena estrategia digital permite que tu negocio tenga más posibilidades de aparecer cuando tus clientes potenciales están buscando lo que ofrecés.",
+        text: "Una buena estrategia digital permite que tu negocio tenga más posibilidades de aparecer cuando tus clientes potenciales están buscando lo que ofreces.",
       },
       { type: "h2", text: "5. Tu negocio parece menos profesional de lo que realmente es" },
-      { type: "p", text: "Podés tener excelentes productos, buenos precios y un servicio increíble." },
+      { type: "p", text: "Puedes tener excelentes productos, buenos precios y un servicio increíble." },
       {
         type: "p",
         text: "Pero si cuando alguien busca tu negocio solamente encuentra un perfil de redes sociales desactualizado o información incompleta, la percepción puede ser diferente.",
@@ -338,8 +338,8 @@ export const articulos: Articulo[] = [
       {
         type: "ul",
         items: [
-          "Quién sos.",
-          "Qué hacés.",
+          "Quién eres.",
+          "Qué haces.",
           "Tus servicios o productos.",
           "Fotografías de tu trabajo.",
           "Testimonios.",
@@ -351,15 +351,15 @@ export const articulos: Articulo[] = [
       { type: "p", text: "Todo en un solo lugar." },
       { type: "h2", text: "6. Pierdes clientes fuera del horario de atención" },
       { type: "p", text: "Tu negocio puede cerrar a las 7:00 p. m., pero Internet nunca cierra." },
-      { type: "p", text: "Una persona puede descubrir tu negocio a las 10:00 p. m. y querer saber qué servicios ofrecés o cuánto cuesta algo." },
-      { type: "p", text: "Si tenés una página web, esa persona puede encontrar la información incluso cuando no estás disponible para responder." },
-      { type: "h2", text: "7. No tenés un lugar propio para presentar tu negocio" },
+      { type: "p", text: "Una persona puede descubrir tu negocio a las 10:00 p. m. y querer saber qué servicios ofreces o cuánto cuesta algo." },
+      { type: "p", text: "Si tienes una página web, esa persona puede encontrar la información incluso cuando no estás disponible para responder." },
+      { type: "h2", text: "7. No tienes un lugar propio para presentar tu negocio" },
       { type: "p", text: "Instagram, Facebook y TikTok son plataformas excelentes, pero son plataformas de terceros." },
       { type: "p", text: "Tu página web es diferente." },
-      { type: "p", text: "Es un espacio digital propio que podés utilizar como centro de toda tu estrategia:" },
+      { type: "p", text: "Es un espacio digital propio que puedes utilizar como centro de toda tu estrategia:" },
       { type: "p", text: "**Redes sociales → Página web → WhatsApp → Cliente**" },
       { type: "p", text: "De esta manera, tus redes no tienen que hacer todo el trabajo." },
-      { type: "h2", text: "Entonces, ¿realmente necesitás una página web?" },
+      { type: "h2", text: "Entonces, ¿realmente necesitas una página web?" },
       {
         type: "p",
         text: "No todos los negocios necesitan una página web enorme ni una plataforma complicada.",
@@ -384,7 +384,7 @@ export const articulos: Articulo[] = [
       },
       {
         type: "p",
-        text: "**Tu negocio puede estar perdiendo clientes que ya están buscando exactamente lo que vos ofrecés.**",
+        text: "**Tu negocio puede estar perdiendo clientes que ya están buscando exactamente lo que tú ofreces.**",
       },
     ],
   },
@@ -394,11 +394,11 @@ export const articulos: Articulo[] = [
     metaDescription:
       "Guía para elegir bien quién te desarrolle la página web de tu negocio: qué preguntar, qué debería incluir la propuesta, y las señales de alerta a evitar.",
     excerpt:
-      "Elegir a quién le encargás tu página web no debería depender solo del precio. Estas son las señales para reconocer a un profesional serio.",
+      "Elegir a quién le encargas tu página web no debería depender solo del precio. Estas son las señales para reconocer a un profesional serio.",
     publishedAt: "2026-08-20",
     content: [
       { type: "p", text: "Elegir quién va a crear la página web de tu negocio parece sencillo." },
-      { type: "p", text: "Buscás a alguien, preguntás cuánto cuesta, ves algunos diseños y, si el precio te convence, empezás." },
+      { type: "p", text: "Buscas a alguien, preguntas cuánto cuesta, ves algunos diseños y, si el precio te convence, empiezas." },
       { type: "p", text: "El problema es que una página web no es solamente un diseño bonito." },
       {
         type: "p",
@@ -421,10 +421,10 @@ export const articulos: Articulo[] = [
       { type: "p", text: "¿Te está preguntando sobre tu negocio o solamente te está hablando de tecnología?" },
       {
         type: "p",
-        text: "Antes de empezar a hablar de código, herramientas o plataformas, debería existir una conversación sobre tus clientes, tus servicios, tus objetivos y lo que querés conseguir con la página.",
+        text: "Antes de empezar a hablar de código, herramientas o plataformas, debería existir una conversación sobre tus clientes, tus servicios, tus objetivos y lo que quieres conseguir con la página.",
       },
 
-      { type: "h2", text: "2. Mirá más allá de los diseños bonitos" },
+      { type: "h2", text: "2. Mira más allá de los diseños bonitos" },
       { type: "p", text: "Ver un [portafolio](/portafolio) es importante, pero no solamente para decir:" },
       { type: "p", text: "\"Qué página tan bonita.\"" },
       { type: "p", text: "También deberías preguntarte:" },
@@ -457,16 +457,16 @@ export const articulos: Articulo[] = [
         items: [
           "¿Qué hace tu negocio?",
           "¿Quiénes son tus clientes?",
-          "¿Qué servicios querés destacar?",
-          "¿Qué querés conseguir con la página?",
+          "¿Qué servicios quieres destacar?",
+          "¿Qué quieres conseguir con la página?",
           "¿Cómo llegan actualmente tus clientes?",
-          "¿Qué querés que haga una persona cuando entre a tu web?",
-          "¿Tenés alguna referencia de diseño?",
+          "¿Qué quieres que haga una persona cuando entre a tu web?",
+          "¿Tienes alguna referencia de diseño?",
           "¿Qué diferencia a tu negocio de la competencia?",
         ],
       },
       { type: "p", text: "¿Por qué?" },
-      { type: "p", text: "Porque no podés construir una buena solución para un negocio que no entendés." },
+      { type: "p", text: "Porque no puedes construir una buena solución para un negocio que no entiendes." },
       {
         type: "p",
         text: "Si alguien puede empezar tu página sin saber prácticamente nada sobre tu negocio, probablemente está usando una solución genérica.",
@@ -516,8 +516,8 @@ export const articulos: Articulo[] = [
       { type: "p", text: "**\"La solución que realmente necesita mi negocio.\"**" },
 
       { type: "h2", text: "6. La comunicación también forma parte del servicio" },
-      { type: "p", text: "Hay algo que podés comprobar incluso antes de contratar:" },
-      { type: "p", text: "cómo se comunica la persona con vos." },
+      { type: "p", text: "Hay algo que puedes comprobar incluso antes de contratar:" },
+      { type: "p", text: "cómo se comunica la persona contigo." },
       { type: "p", text: "No significa que tenga que responderte inmediatamente a cualquier hora." },
       { type: "p", text: "Pero sí debería existir cierta organización." },
       { type: "p", text: "Deberías saber:" },
@@ -565,8 +565,8 @@ export const articulos: Articulo[] = [
       { type: "p", text: "Porque una página web no debería tener un botón simplemente porque \"se ve bonito\"." },
       { type: "p", text: "Debería existir porque ayuda al usuario a dar el siguiente paso." },
 
-      { type: "h2", text: "Entonces, ¿cómo sabés si estás trabajando con un profesional?" },
-      { type: "p", text: "No necesitás saber programar para darte cuenta." },
+      { type: "h2", text: "Entonces, ¿cómo sabes si estás trabajando con un profesional?" },
+      { type: "p", text: "No necesitas saber programar para darte cuenta." },
       { type: "p", text: "Simplemente observá si la persona:" },
       {
         type: "ul",
@@ -604,7 +604,7 @@ export const articulos: Articulo[] = [
     metaDescription:
       "8 preguntas clave para hacerle a cualquier desarrollador web antes de contratarlo: dominio, soporte, pagos, seguridad y SEO — sin necesidad de saber programar.",
     excerpt:
-      "No necesitás saber programar para contratar bien. Estas son las preguntas que separan a un profesional serio de alguien que solo te va a entregar un archivo.",
+      "No necesitas saber programar para contratar bien. Estas son las preguntas que separan a un profesional serio de alguien que solo te va a entregar un archivo.",
     publishedAt: "2026-08-21",
     content: [
       { type: "p", text: "Contratar a alguien para crear la página web de tu negocio no debería reducirse a preguntar cuánto cuesta." },
@@ -612,7 +612,7 @@ export const articulos: Articulo[] = [
         type: "p",
         text: "El precio importa, claro, pero hay preguntas mucho más importantes que pueden ayudarte a entender qué estás contratando, quién se hará responsable del proyecto y qué pasará después de que la página esté publicada.",
       },
-      { type: "p", text: "Y no necesitás saber programar para hacerlas." },
+      { type: "p", text: "Y no necesitas saber programar para hacerlas." },
       {
         type: "p",
         text: "De hecho, un profesional debería poder responderlas de una manera que puedas entender sin necesidad de hablar de código, servidores o términos técnicos complicados.",
@@ -641,7 +641,7 @@ export const articulos: Articulo[] = [
         type: "p",
         text: "Muchas personas piensan únicamente en el momento en que la página queda publicada, pero una web puede necesitar cambios, actualizaciones, correcciones o mantenimiento posteriormente.",
       },
-      { type: "p", text: "Por eso podés preguntar:" },
+      { type: "p", text: "Por eso puedes preguntar:" },
       { type: "p", text: "**¿Qué soporte ofrecen después de la entrega?**" },
       { type: "p", text: "**¿Las correcciones están incluidas?**" },
       { type: "p", text: "**¿Qué pasa si dentro de tres meses necesito cambiar una sección?**" },
@@ -649,7 +649,7 @@ export const articulos: Articulo[] = [
       { type: "p", text: "No existe una única respuesta correcta para todos los proyectos." },
       {
         type: "p",
-        text: "Lo importante es que el profesional te explique claramente qué incluye el servicio y qué ocurre cuando necesitás algo que no estaba contemplado inicialmente.",
+        text: "Lo importante es que el profesional te explique claramente qué incluye el servicio y qué ocurre cuando necesitas algo que no estaba contemplado inicialmente.",
       },
       {
         type: "p",
@@ -663,7 +663,7 @@ export const articulos: Articulo[] = [
         text: "Y utilizar una plantilla, un CMS, componentes existentes o herramientas de desarrollo no significa automáticamente que el resultado sea malo.",
       },
       { type: "p", text: "El problema aparece cuando simplemente se toma una estructura genérica y se cambia el logo, los colores y algunos textos sin pensar realmente en el negocio." },
-      { type: "p", text: "Por eso podés preguntar:" },
+      { type: "p", text: "Por eso puedes preguntar:" },
       { type: "p", text: "**¿Cómo van a adaptar la página a las necesidades de mi negocio?**" },
       { type: "p", text: "**¿Qué partes serán personalizadas?**" },
       { type: "p", text: "**¿Cómo van a definir la estructura de la página?**" },
@@ -707,11 +707,11 @@ export const articulos: Articulo[] = [
       { type: "h2", text: "6. ¿Qué van a hacer para que la página cargue rápido?" },
       { type: "p", text: "La velocidad también importa." },
       { type: "p", text: "Una página puede tener un diseño excelente y aun así ofrecer una mala experiencia si tarda demasiado en cargar." },
-      { type: "p", text: "Podés preguntar:" },
+      { type: "p", text: "Puedes preguntar:" },
       { type: "p", text: "**¿Cómo van a optimizar las imágenes?**" },
       { type: "p", text: "**¿Van a optimizar el código y los recursos de la página?**" },
       { type: "p", text: "**¿Van a revisar el rendimiento antes de entregarla?**" },
-      { type: "p", text: "No necesitás entender exactamente cómo funciona cada optimización." },
+      { type: "p", text: "No necesitas entender exactamente cómo funciona cada optimización." },
       { type: "p", text: "Lo importante es que el desarrollador pueda explicarte qué medidas piensa tomar para que la página tenga un buen rendimiento." },
 
       { type: "h2", text: "7. ¿La página tendrá una configuración básica de SEO?" },
@@ -735,8 +735,8 @@ export const articulos: Articulo[] = [
       { type: "p", text: "El SEO es un trabajo que puede continuar después del desarrollo." },
 
       { type: "h2", text: "8. ¿Cómo van a manejar la seguridad?" },
-      { type: "p", text: "No necesitás saber de servidores para hacer esta pregunta." },
-      { type: "p", text: "Podés preguntar simplemente:" },
+      { type: "p", text: "No necesitas saber de servidores para hacer esta pregunta." },
+      { type: "p", text: "Puedes preguntar simplemente:" },
       { type: "p", text: "**¿Qué medidas de seguridad tendrá la página?**" },
       {
         type: "p",
@@ -758,20 +758,20 @@ export const articulos: Articulo[] = [
       { type: "p", text: "De hecho, sería poco realista." },
       { type: "p", text: "Lo importante es que exista claridad." },
 
-      { type: "h2", text: "No necesitás saber programar para hacer buenas preguntas" },
+      { type: "h2", text: "No necesitas saber programar para hacer buenas preguntas" },
       { type: "p", text: "Este es probablemente el punto más importante." },
-      { type: "p", text: "Cuando contratás un desarrollador web, no tenés que convertirte en desarrollador para saber si el proyecto está bien planteado." },
+      { type: "p", text: "Cuando contratas un desarrollador web, no tienes que convertirte en desarrollador para saber si el proyecto está bien planteado." },
       { type: "p", text: "Tu trabajo es entender qué estás comprando." },
       {
         type: "p",
-        text: "Podés preguntar quién será dueño del dominio, qué acceso vas a tener, qué incluye el precio, qué ocurrirá después de la entrega, cómo se manejarán los cambios y qué aspectos técnicos va a tener en cuenta el proyecto.",
+        text: "Puedes preguntar quién será dueño del dominio, qué acceso vas a tener, qué incluye el precio, qué ocurrirá después de la entrega, cómo se manejarán los cambios y qué aspectos técnicos va a tener en cuenta el proyecto.",
       },
-      { type: "p", text: "Y si el profesional puede explicártelo de forma clara, sin esconderse detrás de palabras técnicas, ya tenés una señal importante." },
+      { type: "p", text: "Y si el profesional puede explicártelo de forma clara, sin esconderse detrás de palabras técnicas, ya tienes una señal importante." },
 
       { type: "h2", text: "Conclusión" },
-      { type: "p", text: "Contratar un desarrollador web no debería sentirse como comprar algo que no entendés." },
-      { type: "p", text: "No necesitás conocer HTML, CSS, JavaScript, servidores o bases de datos." },
-      { type: "p", text: "Necesitás hacer las preguntas correctas." },
+      { type: "p", text: "Contratar un desarrollador web no debería sentirse como comprar algo que no entiendes." },
+      { type: "p", text: "No necesitas conocer HTML, CSS, JavaScript, servidores o bases de datos." },
+      { type: "p", text: "Necesitas hacer las preguntas correctas." },
       {
         type: "p",
         text: "Preguntá quién tendrá el control del dominio y del hosting. Preguntá qué ocurre después de la entrega. Preguntá cómo se manejarán los cambios. Preguntá qué incluye el precio y cómo se realizará el pago.",
@@ -780,10 +780,10 @@ export const articulos: Articulo[] = [
       { type: "p", text: "Un profesional no debería molestarse porque hagas estas preguntas." },
       { type: "p", text: "Debería estar preparado para responderlas." },
       { type: "p", text: "Porque una página web no debería ser simplemente algo que alguien te entrega y desaparece." },
-      { type: "p", text: "Debería ser una herramienta que entendés, podés administrar y que está construida para cumplir un objetivo real dentro de tu negocio." },
+      { type: "p", text: "Debería ser una herramienta que entiendes, puedes administrar y que está construida para cumplir un objetivo real dentro de tu negocio." },
       {
         type: "p",
-        text: "Si estás pensando en crear una página web para tu negocio y querés conocer cómo trabajamos ese proceso en Jherva, podés conocer nuestro [proceso de trabajo](/proceso).",
+        text: "Si estás pensando en crear una página web para tu negocio y quieres conocer cómo trabajamos ese proceso en Jherva, puedes conocer nuestro [proceso de trabajo](/proceso).",
       },
     ],
   },
@@ -913,11 +913,11 @@ export const articulos: Articulo[] = [
       { type: "p", text: "Queremos que puedas comprobarlo." },
       {
         type: "p",
-        text: "En nuestra sección de [estándares](/estandares) podés consultar los criterios técnicos que utilizamos y las herramientas con las que evaluamos nuestros proyectos.",
+        text: "En nuestra sección de [estándares](/estandares) puedes consultar los criterios técnicos que utilizamos y las herramientas con las que evaluamos nuestros proyectos.",
       },
       {
         type: "p",
-        text: "Y si estás buscando una página web profesional para tu negocio, podés conocer nuestro [proceso](/proceso), [portafolio](/portafolio) y [precios](/precios).",
+        text: "Y si estás buscando una página web profesional para tu negocio, puedes conocer nuestro [proceso](/proceso), [portafolio](/portafolio) y [precios](/precios).",
       },
     ],
   },

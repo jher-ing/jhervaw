@@ -93,7 +93,7 @@ export default function PreciosPage() {
           </h1>
           <p className="max-w-2xl text-lg text-text-secondary text-pretty">
             Una página web profesional con Jherva arranca desde $600.000 COP. El precio final
-            depende del alcance de tu proyecto — acá tenés los rangos reales, no una cotización
+            depende del alcance de tu proyecto — aquí tienes los rangos reales, no una cotización
             a ciegas.
           </p>
           <Button href={whatsappHref} external size="lg">
@@ -158,7 +158,7 @@ export default function PreciosPage() {
       <Section>
         <div className="mx-auto max-w-2xl text-center">
           <p className="text-text-secondary">
-            ¿Tenés más dudas sobre precios y plataformas? Revisá las{" "}
+            ¿Tienes más dudas sobre precios y plataformas? Revisa las{" "}
             <a href="/preguntas-frecuentes#costos-pagina-web" className="text-primary underline underline-offset-4">
               preguntas frecuentes sobre costos
             </a>

@@ -26,7 +26,7 @@ export default function ServiciosPage() {
           </h1>
           <p className="max-w-2xl text-lg text-text-secondary text-pretty">
             Diseñamos pensando en el rubro específico de tu negocio, no en una plantilla
-            genérica. Elegí el tuyo.
+            genérica. Elige el tuyo.
           </p>
         </div>
       </Section>

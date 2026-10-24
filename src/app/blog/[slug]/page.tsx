@@ -90,7 +90,7 @@ export default async function ArticuloPage({
 
           <div className="mt-10 flex flex-col items-center gap-4 rounded-2xl border border-border bg-surface-raised p-8 text-center">
             <p className="text-lg font-semibold text-balance">
-              ¿Querés saber si tu negocio realmente necesita una página web?
+              ¿Quieres saber si tu negocio realmente necesita una página web?
             </p>
             <p className="text-sm text-text-secondary">
               Analicemos tu caso y te decimos qué tendría sentido hacer.

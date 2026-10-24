@@ -43,7 +43,7 @@ export const nichosServicio: ServicioNicho[] = [
       "Menú siempre actualizado, sin depender de una foto vieja en redes",
       "Reservas con un solo clic, sin ida y vuelta por chat",
       "Fotografía y ambientación que transmiten la experiencia antes de que el cliente llegue",
-      "Aparecés en Google cuando alguien busca dónde comer cerca",
+      "Apareces en Google cuando alguien busca dónde comer cerca",
     ],
     mockup: { image: "/restaurante.webp", href: "/portafolio/restaurante" },
     faq: [
@@ -67,7 +67,7 @@ export const nichosServicio: ServicioNicho[] = [
     metaDescription:
       "Páginas web para hoteles, posadas y alojamientos boutique en Colombia: reserva directa, sin comisión de plataformas externas.",
     painPoint:
-      "Dependés de plataformas de reservas que se quedan con una comisión de cada huésped — y esas plataformas muestran su marca, no la tuya.",
+      "Dependes de plataformas de reservas que se quedan con una comisión de cada huésped — y esas plataformas muestran su marca, no la tuya.",
     benefits: [
       "Reserva directa, sin pagar comisión a terceros",
       "Fotografía inmersiva que vende la experiencia, no solo la habitación",
@@ -96,7 +96,7 @@ export const nichosServicio: ServicioNicho[] = [
     metaDescription:
       "Tiendas online de ropa: catálogo organizado, checkout simple y una imagen de marca que no depende del algoritmo de una red social.",
     painPoint:
-      "Vender por Instagram significa mandar catálogo por catálogo en el chat, cada vez, con cada cliente — y perder ventas mientras contestás.",
+      "Vender por Instagram significa mandar catálogo por catálogo en el chat, cada vez, con cada cliente — y perder ventas mientras contestas.",
     benefits: [
       "Catálogo organizado, disponible 24/7, sin responder uno por uno",
       "Checkout simple para cerrar la venta sin salir del sitio",
@@ -125,7 +125,7 @@ export const nichosServicio: ServicioNicho[] = [
     metaDescription:
       "Páginas web para barberías: reserva de turno visible, galería de trabajos propia y una imagen que compite con las barberías más profesionales.",
     painPoint:
-      "Agendás citas por WhatsApp o Instagram, y cuando estás con un cliente en la silla, el resto de los mensajes se acumulan sin respuesta.",
+      "Agendas citas por WhatsApp o Instagram, y cuando estás con un cliente en la silla, el resto de los mensajes se acumulan sin respuesta.",
     benefits: [
       "Reserva de turno visible, sin que tengas el celular en la mano",
       "Galería propia de cortes y estilos, no perdida entre historias",
@@ -154,10 +154,10 @@ export const nichosServicio: ServicioNicho[] = [
     metaDescription:
       "Páginas web para gimnasios y entrenadores personales en Colombia: aparecé en Google, mostrá tus planes y recibí inscripciones sin fricción.",
     painPoint:
-      "La gente busca 'gimnasio cerca' en Google antes de ir — si no aparecés ahí, ni siquiera llegan a preguntar el precio.",
+      "La gente busca 'gimnasio cerca' en Google antes de ir — si no apareces ahí, ni siquiera llegan a preguntar el precio.",
     benefits: [
-      "Aparecés cuando alguien busca gimnasio o entrenador en tu zona",
-      "Mostrás planes, horarios y clases sin responder uno por uno",
+      "Apareces cuando alguien busca gimnasio o entrenador en tu zona",
+      "Muestras planes, horarios y clases sin responder uno por uno",
       "Formulario o WhatsApp directo para inscripciones, sin fricción",
       "Una imagen que refleja resultados reales, no solo fotos sueltas de Instagram",
     ],
