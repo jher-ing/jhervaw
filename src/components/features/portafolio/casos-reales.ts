@@ -31,12 +31,11 @@ export interface CasoReal {
   url?: string;
 }
 
-const PENDIENTE = "PENDIENTE — Rafa pide permiso a la clienta";
+const PENDIENTE = "PENDIENTE — falta la autorización del cliente";
 
 export const casosReales: CasoReal[] = [
   {
-    // Primer caso real: tienda de ropa (página web + catálogo). El nombre del
-    // negocio solo se escribe aquí cuando la clienta lo autorice.
+    // Caso real: el nombre del negocio solo se escribe aquí con la autorización del cliente.
     id: "tienda-de-ropa-cliente",
     publicado: false,
     negocio: PENDIENTE,

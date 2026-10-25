@@ -4,8 +4,8 @@ import { siteConfig } from "@/config/site";
  * Enlaces de WhatsApp por canal.
  *
  * Cada enlace lleva un mensaje inicial distinto para saber de dónde llegó
- * cada cliente: cuando entra un chat, la primera frase dice el canal. Rafa
- * lo anota en el CRM, en el campo «Fuente del prospecto», con el valor de
+ * cada cliente: cuando entra un chat, la primera frase dice el canal. Se
+ * anota como fuente del prospecto, con el valor de
  * `fuente`.
  *
  * Reglas para editar:
@@ -14,7 +14,7 @@ import { siteConfig } from "@/config/site";
  * - Cada mensaje debe empezar distinto a los demás (la frase que identifica
  *   el canal va al principio) para que se reconozca de un vistazo.
  * - Si se cambia un mensaje, actualizar también la tabla del documento
- *   privado de la agencia (`agencia/marketing/enlaces-por-canal.md`).
+ *   interno.
  */
 
 /** Arma el enlace `wa.me` hacia el número de Jherva con el mensaje ya escrito. */
@@ -25,7 +25,7 @@ export function whatsappHref(mensaje?: string): string {
 }
 
 export interface CanalWhatsApp {
-  /** Valor que Rafa escribe en «Fuente del prospecto» en el CRM. */
+  /** Valor que se registra como fuente del prospecto. */
   fuente: string;
   mensaje: string;
 }
@@ -92,7 +92,7 @@ export interface CanalExterno extends CanalWhatsApp {
 }
 
 /**
- * Canales fuera de la web. No se usan en el sitio: son para que Rafa copie el
+ * Canales fuera de la web. No se usan en el sitio: son para copiar el
  * enlace (`whatsappHref(canal.mensaje)`) y lo pegue en cada perfil.
  */
 export const canalesExternos = {
