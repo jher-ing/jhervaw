@@ -4,6 +4,7 @@ import { Phone, MessageCircle, Clock } from "lucide-react";
 import { Section, Eyebrow } from "@/components/ui/Section";
 import { Card } from "@/components/ui/Card";
 import { siteConfig } from "@/config/site";
+import { whatsappHref, canalesWeb } from "@/config/whatsapp";
 import { pageMetadata } from "@/lib/metadata";
 
 /**
@@ -70,7 +71,7 @@ export default function ContactoPage() {
               <div>
                 <p className="text-sm font-medium text-text-primary">WhatsApp</p>
                 <a
-                  href={siteConfig.phone.whatsapp}
+                  href={whatsappHref(canalesWeb.contacto.mensaje)}
                   target="_blank"
                   rel="noopener noreferrer"
                   className="text-sm text-text-secondary hover:text-primary"

@@ -4,6 +4,7 @@ import { useEffect } from "react";
 import { MessageCircle, RotateCw } from "lucide-react";
 import { Container } from "@/components/ui/Container";
 import { Button } from "@/components/ui/Button";
+import { whatsappHref, canalesWeb } from "@/config/whatsapp";
 
 /** Reintentar: `retry` en Next 16.3 (vuelve a pedir la página); `unstable_retry` y `reset` de respaldo. */
 export default function WebError({
@@ -37,7 +38,7 @@ export default function WebError({
             Intentar de nuevo
           </Button>
         )}
-        <Button href="https://wa.me/573021282572" external variant="outline">
+        <Button href={whatsappHref(canalesWeb.error.mensaje)} external variant="outline">
           <MessageCircle size={16} aria-hidden />
           Escribir por WhatsApp
         </Button>

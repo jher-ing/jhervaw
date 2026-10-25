@@ -1,6 +1,7 @@
 import Link from "next/link";
 import { Phone, MessageCircle } from "lucide-react";
 import { siteConfig } from "@/config/site";
+import { whatsappHref, canalesWeb } from "@/config/whatsapp";
 import { Logo } from "@/components/ui/Logo";
 
 export function Footer() {
@@ -65,7 +66,7 @@ export function Footer() {
               </li>
               <li>
                 <a
-                  href={siteConfig.phone.whatsapp}
+                  href={whatsappHref(canalesWeb.pieDePagina.mensaje)}
                   target="_blank"
                   rel="noopener noreferrer"
                   className="flex items-center gap-2 text-sm text-text-secondary transition-colors hover:text-text-primary"

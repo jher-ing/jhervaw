@@ -5,6 +5,7 @@ import { Button } from "@/components/ui/Button";
 import { ProductoCard } from "@/components/features/productos/ProductoCard";
 import { productos } from "@/components/features/productos/productos";
 import { siteConfig } from "@/config/site";
+import { whatsappHref, canalesWeb } from "@/config/whatsapp";
 import { pageMetadata } from "@/lib/metadata";
 
 export const metadata: Metadata = pageMetadata({
@@ -38,8 +39,7 @@ const productosJsonLd = {
 };
 
 export default function ProductosPage() {
-  const whatsappText = "Hola, quiero saber más de las apps de Jherva.";
-  const whatsappHref = `${siteConfig.phone.whatsapp}?text=${encodeURIComponent(whatsappText)}`;
+  const whatsappLink = whatsappHref(canalesWeb.productos.mensaje);
 
   return (
     <>
@@ -81,7 +81,7 @@ export default function ProductosPage() {
             Subimos tu logo, tu menú o tu catálogo y te enseñamos a usarla. Escríbenos y te
             mostramos cómo funciona con tu negocio.
           </p>
-          <Button href={whatsappHref} external size="lg">
+          <Button href={whatsappLink} external size="lg">
             <MessageCircle size={16} aria-hidden />
             Hablar por WhatsApp
           </Button>

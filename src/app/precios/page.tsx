@@ -5,6 +5,7 @@ import { Button } from "@/components/ui/Button";
 import { Card } from "@/components/ui/Card";
 import { CTASection } from "@/components/features/CTASection";
 import { siteConfig } from "@/config/site";
+import { whatsappHref, canalesWeb } from "@/config/whatsapp";
 import { pageMetadata } from "@/lib/metadata";
 
 export const metadata: Metadata = pageMetadata({
@@ -80,8 +81,7 @@ const offerCatalogJsonLd = {
 };
 
 export default function PreciosPage() {
-  const whatsappText = "Hola, vi los precios en la página y quiero contarte sobre mi proyecto.";
-  const whatsappHref = `${siteConfig.phone.whatsapp}?text=${encodeURIComponent(whatsappText)}`;
+  const whatsappLink = whatsappHref(canalesWeb.precios.mensaje);
 
   return (
     <>
@@ -96,7 +96,7 @@ export default function PreciosPage() {
             depende del alcance de tu proyecto — aquí tienes los rangos reales, no una cotización
             a ciegas.
           </p>
-          <Button href={whatsappHref} external size="lg">
+          <Button href={whatsappLink} external size="lg">
             <MessageCircle size={16} aria-hidden />
             Hablar por WhatsApp
           </Button>

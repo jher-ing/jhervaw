@@ -6,6 +6,7 @@ import { zodResolver } from "@hookform/resolvers/zod";
 import { z } from "zod";
 import { CheckCircle2, Send } from "lucide-react";
 import { siteConfig } from "@/config/site";
+import { whatsappHref, canalesWeb } from "@/config/whatsapp";
 import { Button } from "@/components/ui/Button";
 import { cn } from "@/lib/utils";
 
@@ -39,8 +40,8 @@ export function ContactForm() {
   });
 
   function onSubmit(values: FormValues) {
-    const text = `Hola Jherva, soy ${values.name} (${values.email}).\n\n${values.message}`;
-    const url = `${siteConfig.phone.whatsapp}?text=${encodeURIComponent(text)}`;
+    const text = `${canalesWeb.formulario.mensaje} Soy ${values.name} (${values.email}).\n\n${values.message}`;
+    const url = whatsappHref(text);
     window.open(url, "_blank", "noopener,noreferrer");
     setSent(true);
   }

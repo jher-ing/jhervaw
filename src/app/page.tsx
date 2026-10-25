@@ -6,6 +6,7 @@ import { ProcessOverview } from "@/components/features/ProcessOverview";
 import { StandardsSection } from "@/components/features/StandardsSection";
 import { Philosophy } from "@/components/features/Philosophy";
 import { CTASection } from "@/components/features/CTASection";
+import { canalesWeb } from "@/config/whatsapp";
 
 export default function HomePage() {
   return (
@@ -17,7 +18,7 @@ export default function HomePage() {
       <ProcessOverview />
       <StandardsSection />
       <Philosophy />
-      <CTASection />
+      <CTASection canal={canalesWeb.portada} />
     </>
   );
 }

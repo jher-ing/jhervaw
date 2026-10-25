@@ -8,6 +8,7 @@ import { CTASection } from "@/components/features/CTASection";
 import { ArticleBody } from "@/components/features/blog/ArticleBody";
 import { articulos, getArticulo } from "@/components/features/blog/articulos";
 import { siteConfig } from "@/config/site";
+import { whatsappHref, canalBlog } from "@/config/whatsapp";
 import { pageMetadata } from "@/lib/metadata";
 
 export function generateStaticParams() {
@@ -38,8 +39,7 @@ export default async function ArticuloPage({
   const articulo = getArticulo(slug);
   if (!articulo) notFound();
 
-  const whatsappText = `Hola, leí el artículo "${articulo.title}" y quiero saber más.`;
-  const whatsappHref = `${siteConfig.phone.whatsapp}?text=${encodeURIComponent(whatsappText)}`;
+  const whatsappLink = whatsappHref(canalBlog(articulo.slug, articulo.title).mensaje);
   const articleUrl = `${siteConfig.url}/blog/${articulo.slug}`;
 
   const blogPostingJsonLd = {
@@ -95,7 +95,7 @@ export default async function ArticuloPage({
             <p className="text-sm text-text-secondary">
               Analicemos tu caso y te decimos qué tendría sentido hacer.
             </p>
-            <Button href={whatsappHref} external size="lg">
+            <Button href={whatsappLink} external size="lg">
               <MessageCircle size={16} aria-hidden />
               Hablar por WhatsApp
             </Button>

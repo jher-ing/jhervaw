@@ -10,7 +10,7 @@ import { IconTile } from "@/components/ui/IconTile";
 import { CTASection } from "@/components/features/CTASection";
 import { BrowserFrame } from "@/components/features/concepts/BrowserFrame";
 import { nichosServicio, getServicioNicho } from "@/components/features/servicios/nichos-servicio";
-import { siteConfig } from "@/config/site";
+import { whatsappHref, canalNicho } from "@/config/whatsapp";
 import { pageMetadata } from "@/lib/metadata";
 
 export function generateStaticParams() {
@@ -42,8 +42,7 @@ export default async function ServicioNichoPage({
   if (!niche) notFound();
 
   const otherNichos = nichosServicio.filter((n) => n.slug !== niche.slug);
-  const whatsappText = `Hola, vi la página de diseño web para ${niche.title.toLowerCase()} y me interesa saber más.`;
-  const whatsappHref = `${siteConfig.phone.whatsapp}?text=${encodeURIComponent(whatsappText)}`;
+  const whatsappLink = whatsappHref(canalNicho(niche.slug, niche.title).mensaje);
 
   const faqJsonLd = {
     "@context": "https://schema.org",
@@ -63,13 +62,13 @@ export default async function ServicioNichoPage({
           <h1 className="text-4xl font-semibold text-balance sm:text-5xl">{niche.h1}</h1>
           <p className="max-w-2xl text-lg text-text-secondary text-pretty">{niche.painPoint}</p>
           <div className="flex flex-col items-center gap-4 sm:flex-row">
-            <Button href={whatsappHref} external size="lg">
+            <Button href={whatsappLink} external size="lg">
               <MessageCircle size={16} aria-hidden />
               Hablar por WhatsApp
             </Button>
             {niche.mockup ? (
               <Button href={niche.mockup.href} size="lg" variant="outline">
-                Ver en el portafolio
+                Ver el proyecto de muestra
               </Button>
             ) : (
               <Button href="/contacto" size="lg" variant="outline">
@@ -87,7 +86,7 @@ export default async function ServicioNichoPage({
               <div className="relative aspect-[3/2] w-full">
                 <Image
                   src={niche.mockup.image}
-                  alt={`Mockup del concepto de sitio web para ${niche.title.toLowerCase()}`}
+                  alt={`Proyecto de muestra: sitio web para ${niche.title.toLowerCase()}`}
                   fill
                   sizes="(min-width: 1024px) 900px, 100vw"
                   className="object-cover"
@@ -95,9 +94,9 @@ export default async function ServicioNichoPage({
               </div>
             </BrowserFrame>
             <p className="mt-4 text-center text-sm text-text-muted">
-              Ejemplo de nuestro portafolio — no es un cliente real.{" "}
+              Proyecto de muestra con marca ficticia, no un cliente real.{" "}
               <Link href={niche.mockup.href} className="underline hover:text-text-secondary">
-                Ver en el portafolio
+                Verlo completo
               </Link>
             </p>
           </div>
