@@ -3,6 +3,7 @@ import Image from "next/image";
 import { ArrowLeft, ArrowRight, Info } from "lucide-react";
 import { Section, Eyebrow } from "@/components/ui/Section";
 import { Button } from "@/components/ui/Button";
+import { Badge } from "@/components/ui/Badge";
 import { BrowserFrame } from "./BrowserFrame";
 import type { NicheConfig } from "./niches";
 
@@ -35,6 +36,7 @@ export function ConceptDetail({ niche }: { niche: NicheConfig }) {
                 <Icon size={20} aria-hidden />
               </div>
               <Eyebrow>Portafolio</Eyebrow>
+              <Badge>Proyecto de muestra</Badge>
             </div>
             <h1 className="text-3xl font-semibold text-balance sm:text-4xl">{niche.title}</h1>
             <p className="max-w-2xl text-lg text-text-secondary text-pretty">{niche.description}</p>
@@ -43,8 +45,9 @@ export function ConceptDetail({ niche }: { niche: NicheConfig }) {
           <div className="flex max-w-2xl items-start gap-3 rounded-xl border border-border bg-surface-raised p-5">
             <Info size={18} className="mt-0.5 shrink-0 text-primary" aria-hidden />
             <p className="text-sm leading-relaxed text-text-secondary">
-              <strong className="text-text-primary">Esto no es un cliente real de Jherva.</strong>{" "}
-              Es una exploración de diseño con marca y contenido ficticios.
+              <strong className="text-text-primary">Este es un proyecto de muestra, no un cliente real.</strong>{" "}
+              La marca y los textos son inventados: es un ejemplo de lo que podemos hacer para un
+              negocio como el tuyo.
             </p>
           </div>
 
@@ -63,7 +66,7 @@ export function ConceptDetail({ niche }: { niche: NicheConfig }) {
           <div className="relative aspect-[3/2] w-full">
             <Image
               src={niche.image}
-              alt={`Mockup del concepto de sitio web para ${niche.title.toLowerCase()}`}
+              alt={`Proyecto de muestra: sitio web para ${niche.title.toLowerCase()}`}
               fill
               priority
               sizes="(min-width: 1024px) 900px, 100vw"

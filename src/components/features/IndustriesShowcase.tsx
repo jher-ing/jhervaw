@@ -87,7 +87,7 @@ export function IndustriesShowcase() {
               manteniendo un mismo estándar de calidad, rendimiento y conversión.
             </p>
             <p className="text-base leading-relaxed text-white/65 sm:text-lg">
-              Explora algunos de los proyectos de nuestro portafolio y descubre cómo
+              Mira nuestros proyectos de muestra (marcas ficticias) y descubre cómo
               podría verse la presencia digital de tu negocio.
             </p>
           </div>
@@ -100,7 +100,7 @@ export function IndustriesShowcase() {
           <div className="mt-10 flex flex-col items-center gap-6">
             <div className="flex flex-col items-center gap-3">
               <h3 className="text-xs font-medium tracking-wide text-white/50 uppercase">
-                Portafolio disponible
+                Proyectos de muestra
               </h3>
               <ul className="flex flex-wrap justify-center gap-2.5">
                 {availableConcepts.map((niche) => {
@@ -152,7 +152,7 @@ export function IndustriesShowcase() {
                 <Image
                   key={niche.id}
                   src={niche.image}
-                  alt={`Mockup del concepto de sitio web para ${niche.title.toLowerCase()}`}
+                  alt={`Proyecto de muestra: sitio web para ${niche.title.toLowerCase()}`}
                   fill
                   priority={index === 0}
                   sizes="(min-width: 1024px) 1100px, 100vw"

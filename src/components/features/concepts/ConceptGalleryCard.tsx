@@ -21,7 +21,7 @@ export function ConceptGalleryCard({ niche }: { niche: NicheConfig }) {
           <div className="relative aspect-[3/2] w-full">
             <Image
               src={niche.image}
-              alt={`Mockup del concepto de sitio web para ${niche.title.toLowerCase()}`}
+              alt={`Proyecto de muestra: sitio web para ${niche.title.toLowerCase()}`}
               fill
               sizes="(min-width: 1024px) 60vw, 100vw"
               className="object-cover"
@@ -31,8 +31,13 @@ export function ConceptGalleryCard({ niche }: { niche: NicheConfig }) {
       </div>
 
       <div className="flex flex-col gap-5 p-8 sm:p-10 lg:p-12">
-        <div className="flex size-12 items-center justify-center rounded-xl bg-indigo-light/15 text-indigo-light">
-          <Icon size={22} aria-hidden />
+        <div className="flex items-center justify-between gap-3">
+          <div className="flex size-12 items-center justify-center rounded-xl bg-indigo-light/15 text-indigo-light">
+            <Icon size={22} aria-hidden />
+          </div>
+          <span className="rounded-full border border-white/20 bg-white/[0.06] px-3 py-1 text-xs font-medium text-white/80">
+            Proyecto de muestra
+          </span>
         </div>
 
         <div className="flex flex-col gap-3">
@@ -60,7 +65,7 @@ export function ConceptGalleryCard({ niche }: { niche: NicheConfig }) {
 
       <Link
         href={niche.href}
-        aria-label={`Ver más sobre ${niche.title.toLowerCase()}`}
+        aria-label={`Ver el proyecto de muestra para ${niche.title.toLowerCase()}`}
         className="absolute inset-0 z-20 rounded-2xl"
       />
     </article>

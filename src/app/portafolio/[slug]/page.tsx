@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import { notFound } from "next/navigation";
 import { ConceptDetail } from "@/components/features/concepts/ConceptDetail";
 import { CTASection } from "@/components/features/CTASection";
+import { canalesWeb } from "@/config/whatsapp";
 import { niches, getNiche } from "@/components/features/concepts/niches";
 import { pageMetadata } from "@/lib/metadata";
 
@@ -18,8 +19,8 @@ export async function generateMetadata({
   const niche = getNiche(slug);
   if (!niche) return {};
   return pageMetadata({
-    title: `Portafolio — ${niche.title}`,
-    description: niche.description,
+    title: `Proyecto de muestra — ${niche.title}`,
+    description: `${niche.description} Proyecto de muestra con marca ficticia, no un cliente real.`,
     path: niche.href,
   });
 }
@@ -36,7 +37,7 @@ export default async function PortafolioDetailPage({
   return (
     <>
       <ConceptDetail niche={niche} />
-      <CTASection />
+      <CTASection canal={canalesWeb.portafolio} />
     </>
   );
 }
